@@ -1,15 +1,12 @@
+@import "../../assets/global-styles/mixins.style";
+
 .header-big-news {
+  @include trans-opacity();
   display: block;
   width: 100%;
   margin: 2rem 0;
 
-  transition: opacity 0.25s ease-in-out;
-
   h2 {
     margin: 1rem 0;
-  }
-
-  &:hover {
-    opacity: 0.85;
   }
 }

@@ -7,7 +7,7 @@ const TopNews = () => {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatum reprehenderit, commodi modi sapiente, deleniti possimus nesciunt praesentium impedit fuga rem quas id in amet, veritatis voluptatibus ipsum suscipit delectus!";
 
   return (
-    <div className="top-news grid grid-g-2 grid-gtc-2 grid-gtr-2">
+    <div className="top-news grid grid-g-2 grid-gtc-2 grid-gar-250">
       <HeaderNews className="grid-r-s2" title={title} body={body}></HeaderNews>
       <HeaderNews title={title} body={body}></HeaderNews>
       <HeaderNews title={title} body={body}></HeaderNews>

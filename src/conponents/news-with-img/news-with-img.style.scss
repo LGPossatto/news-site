@@ -1,0 +1,14 @@
+@import "../../assets/global-styles/colors.style";
+@import "../../assets/global-styles/mixins.style";
+
+.news-with-img {
+  @include focus-img();
+  @include trans-opacity();
+  cursor: pointer;
+
+  &_text {
+    h2 {
+      margin-top: 1rem;
+    }
+  }
+}

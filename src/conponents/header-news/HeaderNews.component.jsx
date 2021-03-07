@@ -7,7 +7,7 @@ import placeholderImg from "../../assets/images/news-header-placeholder.jpg";
 const HeaderNews = ({ title, body }) => {
   return (
     <Link to="/" className="header-news">
-      <div className="header-news_img">
+      <div className="img-box">
         <img src={placeholderImg} alt="placeholder" />
       </div>
       <div className="header-news_text-box">

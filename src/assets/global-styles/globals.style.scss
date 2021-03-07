@@ -63,12 +63,28 @@ li {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  &-gtr-2 {
-    grid-template-rows: repeat(2, 250px);
+  &-c-s2 {
+    grid-column: span 2;
+  }
+
+  &-gtc-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &-gar-150 {
+    grid-template-rows: 150px;
+  }
+
+  &-gar-250 {
+    grid-template-rows: 250px;
   }
 
   &-r-s2 {
     grid-row: span 2;
+  }
+
+  &-gtr-3 {
+    grid-template-rows: repeat(3, 250px);
   }
 }
 
