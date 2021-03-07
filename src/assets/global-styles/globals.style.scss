@@ -1,4 +1,4 @@
-@import "./colors.style.scss";
+@import "./colors.style";
 
 * {
   padding: 0;
@@ -34,15 +34,61 @@ li {
   margin: 0 auto;
 }
 
+// flex
+.flex {
+  display: flex;
+
+  &-jcsb {
+    justify-content: space-between;
+  }
+
+  &-jcse {
+    justify-content: space-evenly;
+  }
+
+  &-aic {
+    align-items: center;
+  }
+}
+
+// grid
+.grid {
+  display: grid;
+
+  &-g-2 {
+    gap: 2rem;
+  }
+
+  &-gtc-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &-gtr-2 {
+    grid-template-rows: repeat(2, 250px);
+  }
+
+  &-r-s2 {
+    grid-row: span 2;
+  }
+}
+
 // font
 .fs {
   &-big {
     font-size: 24px;
+  }
+
+  &-med {
+    font-size: 18px;
   }
 }
 
 .fc {
   &-primary {
     color: $color-primary;
+  }
+
+  &-light {
+    color: $white;
   }
 }
