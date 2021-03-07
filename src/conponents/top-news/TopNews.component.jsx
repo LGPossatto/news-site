@@ -9,8 +9,8 @@ const TopNews = () => {
   return (
     <div className="top-news grid grid-g-2 grid-gtc-2 grid-gtr-2">
       <HeaderNews className="grid-r-s2" title={title} body={body}></HeaderNews>
-      <HeaderNews className="" title={title} body={body}></HeaderNews>
-      <HeaderNews className="" title={title} body={body}></HeaderNews>
+      <HeaderNews title={title} body={body}></HeaderNews>
+      <HeaderNews title={title} body={body}></HeaderNews>
     </div>
   );
 };

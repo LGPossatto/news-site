@@ -14,7 +14,7 @@ const Searchbar = () => {
         placeholder="Buscar por..."
         className="fs-med fc-light"
       />
-      <i className="fas fa-search fs-big fc-primary"></i>
+      {/* <i className="fas fa-search fs-big fc-primary"></i> */}
     </div>
   );
 };

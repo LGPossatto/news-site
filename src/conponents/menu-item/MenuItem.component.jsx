@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import "./menu-item.style.scss";
 
 const MenuItem = ({ text }) => {
   return (
-    <div className="menu-item">
-      <p className="fs-med fc-light">{text}</p>
-    </div>
+    <Link to="/" className="menu-item">
+      <p className="fs-med fc-light">{text.toUpperCase()}</p>
+    </Link>
   );
 };
 
