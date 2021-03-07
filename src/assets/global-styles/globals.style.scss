@@ -1,0 +1,48 @@
+@import "./colors.style.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  color: $black;
+}
+
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $white;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+// container
+.container {
+  max-width: 1344px;
+  margin: 0 auto;
+}
+
+// font
+.fs {
+  &-big {
+    font-size: 24px;
+  }
+}
+
+.fc {
+  &-primary {
+    color: $color-primary;
+  }
+}
