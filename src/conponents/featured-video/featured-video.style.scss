@@ -1,0 +1,29 @@
+@import "../../assets/global-styles/colors.style";
+@import "../../assets/global-styles/mixins.style";
+
+.featured-video {
+  @include focus-img();
+  display: block;
+  position: absolute;
+  opacity: 0;
+  width: 321px;
+  margin-right: 2rem;
+
+  transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;
+
+  .img-box {
+    height: 180px;
+  }
+
+  h2 {
+    margin: 1rem 0;
+
+    transition: color 0.25s ease-in-out;
+  }
+
+  &:hover {
+    h2 {
+      color: rgba($color-primary, 0.75);
+    }
+  }
+}
