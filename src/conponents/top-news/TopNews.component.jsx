@@ -1,5 +1,5 @@
 import "./top-news.style.scss";
-import HeaderNews from "../header-news/HeaderNews.component";
+import ImgBlockNews from "../img-block-news/ImgBlockNews.component";
 
 const TopNews = () => {
   const title = "Título";
@@ -8,9 +8,13 @@ const TopNews = () => {
 
   return (
     <div className="top-news grid grid-g-2 grid-gtc-2 grid-gar-250">
-      <HeaderNews className="grid-r-s2" title={title} body={body}></HeaderNews>
-      <HeaderNews title={title} body={body}></HeaderNews>
-      <HeaderNews title={title} body={body}></HeaderNews>
+      <ImgBlockNews
+        className="grid-r-s2"
+        title={title}
+        body={body}
+      ></ImgBlockNews>
+      <ImgBlockNews title={title} body={body}></ImgBlockNews>
+      <ImgBlockNews title={title} body={body}></ImgBlockNews>
     </div>
   );
 };

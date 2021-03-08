@@ -71,6 +71,10 @@ li {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  &-gtc-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
   &-gar-150 {
     grid-template-rows: 150px;
   }
@@ -81,10 +85,6 @@ li {
 
   &-r-s2 {
     grid-row: span 2;
-  }
-
-  &-gtr-3 {
-    grid-template-rows: repeat(3, 250px);
   }
 }
 

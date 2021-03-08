@@ -1,7 +1,7 @@
 @import "../../assets/global-styles/colors.style";
 @import "../../assets/global-styles/mixins.style";
 
-.header-news {
+.img-block-news {
   @include focus-img();
   cursor: pointer;
   position: relative;

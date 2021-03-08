@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-import "./header-news.style.scss";
+import "./img-block-news.style.scss";
 import placeholderImg from "../../assets/images/news-header-placeholder.jpg";
 
-const HeaderNews = ({ title, body }) => {
+const ImgBlockNews = ({ title, body }) => {
   return (
-    <Link to="/" className="header-news">
+    <Link to="/" className="img-block-news">
       <div className="img-box">
         <img src={placeholderImg} alt="placeholder" />
       </div>
-      <div className="header-news_text-box">
+      <div className="img-block-news_text-box">
         <h2 className="fs-big fc-primary">{title}</h2>
         <p className="fs-med fc-light">{body}</p>
       </div>
@@ -18,9 +18,9 @@ const HeaderNews = ({ title, body }) => {
   );
 };
 
-HeaderNews.propTypes = {
+ImgBlockNews.propTypes = {
   title: PropTypes.string.isRequired,
   body: PropTypes.string.isRequired,
 };
 
-export default HeaderNews;
+export default ImgBlockNews;

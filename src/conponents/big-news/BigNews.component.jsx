@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { toTitleCase } from "../../utils/utils";
 
-import "./header-big-news.style.scss";
+import "./big-news.style.scss";
 
-const HeaderBigNews = () => {
+const BigNews = () => {
   const category = "categoria";
   const title = "título da matéria";
   const body =
@@ -18,4 +18,4 @@ const HeaderBigNews = () => {
   );
 };
 
-export default HeaderBigNews;
+export default BigNews;
