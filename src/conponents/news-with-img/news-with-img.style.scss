@@ -8,6 +8,7 @@
 
   &_text {
     h2 {
+      @include max3l;
       margin-top: 1rem;
     }
   }

@@ -41,6 +41,10 @@ li {
 .flex {
   display: flex;
 
+  &-jcc {
+    justify-content: center;
+  }
+
   &-jcsb {
     justify-content: space-between;
   }

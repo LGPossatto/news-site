@@ -1,12 +1,13 @@
 import { toTitleCase } from "../../utils/utils";
 
 import "./category-news.style.scss";
-import placeholderImg from "../../assets/images/news-header-placeholder.jpg";
+//import placeholderImg from "../../assets/images/news-header-placeholder.jpg";
 import BigNewsWithImg from "../big-news-with-img/BigNewsWithImg.component";
 import SmallNews from "../small-news/SmallNews.component";
 
 const CategoryNews = () => {
   const category = "categoria";
+  /* 
   const newsImg = {
     img: placeholderImg,
     cetegory: "categoria",
@@ -23,7 +24,7 @@ const CategoryNews = () => {
   const news2 = {
     cetegory: "categoria",
     title: "titulo",
-  };
+  }; */
 
   return (
     <div className="category-news">

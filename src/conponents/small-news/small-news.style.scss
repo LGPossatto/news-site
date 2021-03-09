@@ -1,4 +1,5 @@
 @import "../../assets/global-styles/mixins.style";
+@import "../../assets/global-styles/mixins.style";
 
 .small-news {
   @include trans-opacity();
@@ -7,11 +8,7 @@
   width: 100%;
 
   h2 {
+    @include max2l();
     margin: 1rem 0;
-
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
   }
 }

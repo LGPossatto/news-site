@@ -1,0 +1,12 @@
+@import "../../assets/global-styles/colors.style";
+
+.social-stripe {
+  background-color: $color-primary;
+  margin-top: 5rem;
+  padding: 2rem;
+
+  h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}

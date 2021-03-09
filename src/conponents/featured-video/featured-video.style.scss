@@ -19,6 +19,7 @@
   }
 
   h2 {
+    @include max2l();
     margin: 1rem 0;
 
     transition: color 0.25s ease-in-out;
