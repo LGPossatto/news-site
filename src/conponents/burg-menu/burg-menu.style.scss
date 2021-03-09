@@ -1,0 +1,22 @@
+@import "../../assets/global-styles/colors.style";
+
+.burg-menu {
+  &__links {
+    background-color: $black;
+    position: absolute;
+    width: 105%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    z-index: 1;
+
+    transition: transform 0.5s ease-in-out;
+
+    a {
+      margin: 2rem;
+    }
+  }
+}
+
+.btn-active {
+  transform: translate(-50%, 0%);
+}

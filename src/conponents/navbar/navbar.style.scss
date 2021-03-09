@@ -1,8 +1,16 @@
 @import "../../assets/global-styles/colors.style";
+@import "../../assets/global-styles/mixins.style";
 
 .navbar {
   background-color: $black;
   width: 100%;
   min-height: 50px;
   padding-top: 0.75rem;
+
+  &__top {
+    .title {
+      z-index: 2;
+      position: relative;
+    }
+  }
 }

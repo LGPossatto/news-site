@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import "./navbar.style.scss";
 import Searchbar from "../searchbar/Searchbar.component";
+import BurgMenu from "../burg-menu/BurgMenu.component";
 import MenuItem from "../menu-item/MenuItem.component";
 
 const Navbar = () => {
@@ -18,10 +19,17 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__top container flex flex-jcsb flex-aic">
-        <Link to="/" className="fs-big fc-primary">
-          Salão de Notícias
-        </Link>
-        <Searchbar></Searchbar>
+        <div className="title">
+          <Link to="/" className="fs-big fc-primary">
+            Salão de Notícias
+          </Link>
+        </div>
+        <div className="hide-on-mobile">
+          <Searchbar></Searchbar>
+        </div>
+        <div className="hide-on-desktop">
+          <BurgMenu navMenuItems={navMenuItems}></BurgMenu>
+        </div>
       </div>
       <div className="navbar__bot container hide-on-mobile flex flex-jcse flex-aic">
         {navMenuItems.map((menuItem) => (

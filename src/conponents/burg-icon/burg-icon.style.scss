@@ -1,0 +1,38 @@
+@import "../../assets/global-styles/colors.style";
+
+.burg-icon {
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+
+  width: 25px;
+  height: 25px;
+
+  span {
+    display: block;
+    background-color: $white;
+    width: 100%;
+    height: 3px;
+
+    transition: background-color 0.25s ease-in-out, transform 0.25s ease-in-out;
+  }
+}
+
+// animations
+.btn-icon-active {
+  span {
+    background-color: $color-primary;
+
+    &:first-child {
+      transform: rotate(45deg) translate(6px, 4px);
+    }
+
+    &:nth-child(2) {
+      transform: scale(0);
+    }
+
+    &:last-child {
+      transform: rotate(-45deg) translate(6px, -4px);
+    }
+  }
+}
