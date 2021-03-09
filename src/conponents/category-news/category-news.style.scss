@@ -1,0 +1,13 @@
+@import "../../assets/global-styles/colors.style";
+
+.category-news {
+  h3 {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid $color-primary;
+  }
+
+  &__pad {
+    margin: 4rem 0;
+  }
+}

@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import "./img-block-news.style.scss";
 import placeholderImg from "../../assets/images/news-header-placeholder.jpg";
 
-const ImgBlockNews = ({ title, body }) => {
+const ImgBlockNews = ({ title, body, className }) => {
   return (
-    <Link to="/" className="img-block-news">
+    <Link to="/" className={`img-block-news ${className}`}>
       <div className="img-box">
         <img src={placeholderImg} alt="placeholder" />
       </div>
@@ -21,6 +21,7 @@ const ImgBlockNews = ({ title, body }) => {
 ImgBlockNews.propTypes = {
   title: PropTypes.string.isRequired,
   body: PropTypes.string.isRequired,
+  className: PropTypes.string,
 };
 
 export default ImgBlockNews;

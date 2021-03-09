@@ -14,7 +14,7 @@ const ArrowBtn = ({ dir, moveCarousel }) => {
           moveCarousel(dir);
           setCanMove(false);
 
-          setInterval(() => {
+          setTimeout(() => {
             setCanMove(true);
           }, 250);
         }

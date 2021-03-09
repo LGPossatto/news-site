@@ -2,10 +2,16 @@
 
 .small-news {
   @include trans-opacity();
+  overflow: hidden;
   display: block;
   width: 100%;
 
   h2 {
     margin: 1rem 0;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }

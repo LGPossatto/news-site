@@ -3,6 +3,7 @@
 
 .featured-video {
   @include focus-img();
+  overflow: hidden;
   display: block;
   position: absolute;
   opacity: 0;
@@ -10,6 +11,8 @@
   margin-right: 2rem;
 
   transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;
+
+  text-overflow: ellipsis;
 
   .img-box {
     height: 180px;
