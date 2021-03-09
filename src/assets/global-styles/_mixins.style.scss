@@ -42,3 +42,34 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+// breakpoints
+@mixin bp-max {
+  @media (max-width: 1343px) {
+    @content;
+  }
+}
+
+@mixin bp-960 {
+  @media (max-width: 960px) {
+    @content;
+  }
+}
+
+@mixin bp-tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin bp-mobile {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin bp-m-mobile {
+  @media (min-width: 600px) {
+    @content;
+  }
+}

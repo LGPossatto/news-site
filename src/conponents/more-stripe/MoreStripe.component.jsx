@@ -28,7 +28,7 @@ const MoreStripe = () => {
     <div className="more-stripe">
       <div className="container">
         <h2 className="fs-big fc-light">Mais SdN</h2>
-        <div className="flex flex-jcsb">
+        <div className="more-stripe__links flex flex-jcsb">
           <LinkCluster links={links0}></LinkCluster>
           <LinkCluster links={links1}></LinkCluster>
           <LinkCluster links={links2}></LinkCluster>

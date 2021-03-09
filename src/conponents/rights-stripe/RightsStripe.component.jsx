@@ -6,14 +6,12 @@ const RightsStripe = () => {
       <div className="container flex flex-jcsb">
         <div>
           <span className="fs-med fc-light">
-            Todos os direitos reservados - Portal SdN Online - Rádio SdN S/A
-          </span>
-          <span className="fs-med fc-light">
-            Av. Lorem, 100 - 13º andar - São Paulo - SP
+            Todos os direitos reservados - Portal SdN Online - Rádio SdN S/A{" "}
+            {"\n"} Av. Lorem, 100 - 13º andar - São Paulo - SP
           </span>
         </div>
         <div>
-          <span className="fs-med fc-light">
+          <span className="fs-med fc-light rights-stripe__right">
             +55 11 1234-5678 - salaodenoticias@sdn.com.br
           </span>
         </div>

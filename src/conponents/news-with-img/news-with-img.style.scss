@@ -12,4 +12,8 @@
       margin-top: 1rem;
     }
   }
+
+  @include bp-960 {
+    grid-auto-rows: 100px;
+  }
 }

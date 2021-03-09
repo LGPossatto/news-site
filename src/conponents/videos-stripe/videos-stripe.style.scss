@@ -4,13 +4,15 @@
   background-color: $black;
 
   &__top {
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   &__box {
     overflow: hidden;
 
     .carousel-box {
+      overflow: hidden;
       position: relative;
       height: 275px;
     }

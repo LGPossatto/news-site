@@ -18,8 +18,12 @@
     padding: 1rem;
 
     h2 {
-      @include max3l();
+      @include max2l();
       margin-bottom: 0.5rem;
+    }
+
+    p {
+      @include max3l();
     }
   }
 }

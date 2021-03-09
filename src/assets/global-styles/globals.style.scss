@@ -1,4 +1,5 @@
 @import "./colors.style";
+@import "./mixins.style";
 
 * {
   padding: 0;
@@ -35,6 +36,26 @@ li {
 .container {
   max-width: 1344px;
   margin: 0 auto;
+
+  @include bp-max {
+    padding: 0 5rem;
+  }
+
+  @include bp-mobile {
+    padding: 0 1rem;
+  }
+}
+
+.hide-on-mobile {
+  @include bp-mobile {
+    display: none !important;
+  }
+}
+
+.hide-on-desktop {
+  @include bp-m-mobile {
+    display: none !important;
+  }
 }
 
 // flex
@@ -106,15 +127,39 @@ li {
 // font
 .fs {
   &-biger {
-    font-size: 32px;
+    font-size: 3.2rem;
   }
 
   &-big {
-    font-size: 24px;
+    font-size: 2.4rem;
   }
 
   &-med {
-    font-size: 18px;
+    font-size: 1.8rem;
+  }
+
+  @include bp-960() {
+    &-biger {
+      font-size: 2.8rem;
+    }
+
+    &-big {
+      font-size: 2rem;
+    }
+
+    &-med {
+      font-size: 1.4rem;
+    }
+  }
+
+  @include bp-mobile() {
+    &-biger {
+      font-size: 2.4rem;
+    }
+
+    &-big {
+      font-size: 1.8rem;
+    }
   }
 }
 

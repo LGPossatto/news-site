@@ -1,4 +1,5 @@
 @import "../../assets/global-styles/colors.style";
+@import "../../assets/global-styles/mixins.style";
 
 .more-stripe {
   background-color: $color-dark-primary;
@@ -6,5 +7,11 @@
 
   h2 {
     margin-bottom: 2rem;
+  }
+
+  @include bp-mobile {
+    &__links {
+      flex-wrap: wrap;
+    }
   }
 }

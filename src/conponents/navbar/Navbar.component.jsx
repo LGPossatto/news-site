@@ -17,13 +17,13 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar_top container flex flex-jcsb flex-aic">
+      <div className="navbar__top container flex flex-jcsb flex-aic">
         <Link to="/" className="fs-big fc-primary">
           Salão de Notícias
         </Link>
         <Searchbar></Searchbar>
       </div>
-      <div className="navbar_bot container flex flex-jcse flex-aic">
+      <div className="navbar__bot container hide-on-mobile flex flex-jcse flex-aic">
         {navMenuItems.map((menuItem) => (
           <MenuItem key={menuItem.id} text={menuItem.name}></MenuItem>
         ))}
