@@ -1,21 +1,22 @@
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { toTitleCase } from "../../utils/utils";
 
 import "./big-news.style.scss";
 
-const BigNews = () => {
-  const category = "categoria";
-  const title = "título da matéria";
-  const body =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consectetur suscipit excepturi! Non explicabo doloribus quo repellat totam nemo veniam vitae consequatur dolore exercitationem est nam, rerum, suscipit voluptate molestiae!";
-
+const BigNews = ({ headline }) => {
   return (
     <Link to="/" className="header-big-news">
-      <span className="fs-med fc-primary">{toTitleCase(category)}</span>
-      <h2 className="fs-biger fc-dark">{toTitleCase(title)}</h2>
-      <p className="fs-big fc-dark">{body}</p>
+      <span className="fs-med fc-primary">{headline.source.name}</span>
+      <h2 className="fs-biger fc-dark">{headline.title}</h2>
+      {headline.description ? (
+        <p className="fs-big fc-dark">{headline.description}</p>
+      ) : null}
     </Link>
   );
+};
+
+BigNews.propTypes = {
+  headline: PropTypes.object.isRequired,
 };
 
 export default BigNews;
