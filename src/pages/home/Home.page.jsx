@@ -12,7 +12,7 @@ const Home = () => {
   const { getAllHeadlines } = useContext(NewsContext);
 
   useEffect(() => {
-    getAllHeadlines();
+    //getAllHeadlines();
     // eslint-disable-next-line
   }, []);
 

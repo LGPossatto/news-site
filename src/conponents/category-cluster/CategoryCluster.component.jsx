@@ -6,6 +6,8 @@ import "./category-cluster.style.scss";
 import CategoryNews from "../category-news/CategoryNews.componente";
 import Spinner from "../spinner/Spinner.component";
 
+import { categoryNames } from "../../utils/utils";
+
 const CategoryCluster = () => {
   const {
     categoryLoading,
@@ -26,27 +28,33 @@ const CategoryCluster = () => {
       <div className="container">
         <div className="category-cluster grid grid-g-2 grid-gtc-3">
           <CategoryNews
-            category="Negócio"
+            category={categoryNames.NEGOCIO}
+            categoryTitle="negócio"
             categoryHeadline={businessHeadlines}
           ></CategoryNews>
           <CategoryNews
-            category="Entretenimento"
+            category={categoryNames.ENTRETENIMENTO}
+            categoryTitle="entretenimento"
             categoryHeadline={entertainmentHeadlines}
           ></CategoryNews>
           <CategoryNews
-            category="Saúde"
+            category={categoryNames.SAUDE}
+            categoryTitle="saúde"
             categoryHeadline={healthHeadlines}
           ></CategoryNews>
           <CategoryNews
-            category="Ciência"
+            category={categoryNames.CIENCIA}
+            categoryTitle="ciência"
             categoryHeadline={scienceHeadlines}
           ></CategoryNews>
           <CategoryNews
-            category="Esporte"
+            category={categoryNames.ESPORTE}
+            categoryTitle="esporte"
             categoryHeadline={sportsHeadlines}
           ></CategoryNews>
           <CategoryNews
-            category="Tecnologia"
+            category={categoryNames.TECNOLOGIA}
+            categoryTitle="tecnologia"
             categoryHeadline={technologyHeadlines}
           ></CategoryNews>
         </div>

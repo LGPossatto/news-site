@@ -13,17 +13,19 @@ import {
   SET_CATEGORY_LOADING,
 } from "../types";
 
+import { ex_res } from "../../ex_resp";
+
 const NewsState = (props) => {
   const initialState = {
-    topLoading: true,
-    topHeadlines: [],
-    categoryLoading: true,
-    businessHeadlines: [],
-    entertainmentHeadlines: [],
-    healthHeadlines: [],
-    scienceHeadlines: [],
-    sportsHeadlines: [],
-    technologyHeadlines: [],
+    topLoading: false,
+    topHeadlines: ex_res.articles,
+    categoryLoading: false,
+    businessHeadlines: ex_res.articles,
+    entertainmentHeadlines: ex_res.articles,
+    healthHeadlines: ex_res.articles,
+    scienceHeadlines: ex_res.articles,
+    sportsHeadlines: ex_res.articles,
+    technologyHeadlines: ex_res.articles,
   };
 
   const [state, dispatch] = useReducer(NewsReducer, initialState);

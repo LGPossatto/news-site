@@ -9,7 +9,7 @@ import Spinner from "../spinner/Spinner.component";
 const TopNews = () => {
   const { topLoading, topHeadlines } = useContext(NewsContext);
 
-  return null;
+  //return null;
 
   if (topLoading) {
     return <Spinner></Spinner>;
@@ -20,9 +20,19 @@ const TopNews = () => {
           <ImgBlockNews
             className="grid-r-s2"
             headline={topHeadlines[0]}
+            category="geral"
+            id={0}
           ></ImgBlockNews>
-          <ImgBlockNews headline={topHeadlines[1]}></ImgBlockNews>
-          <ImgBlockNews headline={topHeadlines[2]}></ImgBlockNews>
+          <ImgBlockNews
+            headline={topHeadlines[1]}
+            category="geral"
+            id={1}
+          ></ImgBlockNews>
+          <ImgBlockNews
+            headline={topHeadlines[2]}
+            category="geral"
+            id={2}
+          ></ImgBlockNews>
         </div>
       </div>
     );

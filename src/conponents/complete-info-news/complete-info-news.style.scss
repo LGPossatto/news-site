@@ -1,0 +1,14 @@
+@import "../../assets/global-styles/mixins.style";
+
+.complete-info-news {
+  width: 100%;
+
+  .title-box {
+    margin: 2rem 0;
+  }
+
+  h2,
+  p {
+    margin: 1rem 0;
+  }
+}

@@ -6,7 +6,7 @@
   @include trans-opacity();
   cursor: pointer;
 
-  &_text {
+  &__text {
     h2 {
       @include max3l;
       margin-top: 1rem;
