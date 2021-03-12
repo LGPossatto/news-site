@@ -5,7 +5,7 @@ import "./small-news.style.scss";
 
 const SmallNews = ({ headline, category, id }) => {
   return (
-    <Link to={`/${category}/${id}`} className="small-news">
+    <Link to={`/${category}/noticia/${id}`} className="small-news">
       <span className="fs-med fc-primary">{headline.source.name}</span>
       <h2 className="fs-med fc-dark">{headline.title}</h2>
     </Link>

@@ -23,3 +23,14 @@
   border-right: 5px solid $color-primary;
   transform: rotate(-45deg);
 }
+
+// btn light
+.btn-light {
+  background-color: white;
+  border-bottom: 5px solid $black;
+}
+
+.btn-light-left,
+.btn-light-right {
+  border-color: $black;
+}

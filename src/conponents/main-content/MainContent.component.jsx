@@ -19,7 +19,7 @@ const MainContent = () => {
     return (
       <div className="container">
         <div className="main-content">
-          <BigNews headline={topHeadlines[3]} id={3}></BigNews>
+          <BigNews headline={topHeadlines[3]} category="geral" id={3}></BigNews>
           <div className="main-content__with-img grid grid-g-2 grid-gtc-2">
             <NewsCluster
               headline1={topHeadlines[4]}

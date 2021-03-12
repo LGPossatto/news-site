@@ -6,7 +6,10 @@ import placeholderImg from "../../assets/images/news-header-placeholder.jpg";
 
 const ImgBlockNews = ({ headline, category, id, className }) => {
   return (
-    <Link to={`/${category}/${id}`} className={`img-block-news ${className}`}>
+    <Link
+      to={`/${category}/noticia/${id}`}
+      className={`img-block-news ${className}`}
+    >
       <div className="img-box">
         <img src={headline.urlToImage || placeholderImg} alt="placeholder" />
       </div>

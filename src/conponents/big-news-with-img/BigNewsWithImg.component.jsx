@@ -8,7 +8,7 @@ const BigNewsWithImg = ({ headline, category, id }) => {
   console.log(headline.urlToImage);
 
   return (
-    <Link to={`/${category}/${id}`} className="big-news-with-img">
+    <Link to={`/${category}/noticia/${id}`} className="big-news-with-img">
       <span className="fs-med fc-primary">{headline.source.name}</span>
       <div className="img-box">
         <img src={headline.urlToImage || placeholderImg} alt="placeholder" />

@@ -3,15 +3,15 @@ import PropTypes from "prop-types";
 
 import "./arrow-btn.style.scss";
 
-const ArrowBtn = ({ dir, moveCarousel }) => {
+const ArrowBtn = ({ dir, handleClick, light }) => {
   const [canMove, setCanMove] = useState(true);
 
   return (
     <button
-      className={`btn-${dir}`}
+      className={`btn-${dir} ${light && `btn-light btn-light-${dir}`}`}
       onClick={() => {
-        if (canMove) {
-          moveCarousel(dir);
+        if (canMove && handleClick) {
+          handleClick(dir);
           setCanMove(false);
 
           setTimeout(() => {
@@ -25,7 +25,8 @@ const ArrowBtn = ({ dir, moveCarousel }) => {
 
 ArrowBtn.propTypes = {
   dir: PropTypes.string.isRequired,
-  moveCarousel: PropTypes.func.isRequired,
+  handleClick: PropTypes.func,
+  light: PropTypes.string,
 };
 
 export default ArrowBtn;

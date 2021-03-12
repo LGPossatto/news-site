@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 import "./menu-item.style.scss";
 
-const MenuItem = ({ text }) => {
+const MenuItem = ({ text, category }) => {
   return (
-    <Link to="/" className="menu-item">
+    <Link to={`/${category}/0`} className="menu-item">
       <p className="fs-med fc-light">{text.toUpperCase()}</p>
     </Link>
   );
@@ -13,6 +13,7 @@ const MenuItem = ({ text }) => {
 
 MenuItem.propTypes = {
   text: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
 };
 
 export default MenuItem;

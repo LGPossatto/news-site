@@ -5,6 +5,7 @@ export const toTitleCase = (str) => {
 };
 
 export const categoryNames = {
+  GERAL: "geral",
   NEGOCIO: "negocio",
   ENTRETENIMENTO: "entretenimento",
   SAUDE: "saude",

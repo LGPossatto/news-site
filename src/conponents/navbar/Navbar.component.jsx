@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import { categoryNames } from "../../utils/utils";
+
 import "./navbar.style.scss";
 import Searchbar from "../searchbar/Searchbar.component";
 import BurgMenu from "../burg-menu/BurgMenu.component";
@@ -7,13 +9,13 @@ import MenuItem from "../menu-item/MenuItem.component";
 
 const Navbar = () => {
   const navMenuItems = [
-    { name: "business", id: 0 },
-    { name: "entertainment", id: 1 },
-    { name: "general", id: 2 },
-    { name: "health", id: 3 },
-    { name: "science", id: 4 },
-    { name: "sports", id: 5 },
-    { name: "technology", id: 6 },
+    { category: categoryNames.GERAL, name: "Geral", id: 0 },
+    { category: categoryNames.NEGOCIO, name: "Negócio", id: 1 },
+    { category: categoryNames.ENTRETENIMENTO, name: "Entretenimento", id: 2 },
+    { category: categoryNames.SAUDE, name: "Saúde", id: 3 },
+    { category: categoryNames.CIENCIA, name: "Ciência", id: 4 },
+    { category: categoryNames.ESPORTE, name: "Esporte", id: 5 },
+    { category: categoryNames.TECNOLOGIA, name: "Tecnologia", id: 6 },
   ];
 
   return (
@@ -33,7 +35,11 @@ const Navbar = () => {
       </div>
       <div className="navbar__bot container hide-on-mobile flex flex-jcse flex-aic">
         {navMenuItems.map((menuItem) => (
-          <MenuItem key={menuItem.id} text={menuItem.name}></MenuItem>
+          <MenuItem
+            key={menuItem.id}
+            text={menuItem.name}
+            category={menuItem.category}
+          ></MenuItem>
         ))}
       </div>
     </nav>

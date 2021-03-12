@@ -7,7 +7,7 @@ import placeholderImg from "../../assets/images/news-header-placeholder.jpg";
 const NewsWithImg = ({ headline, category, id }) => {
   return (
     <Link
-      to={`/${category}/${id}`}
+      to={`/${category}/noticia/${id}`}
       className="news-with-img grid grid-g-2 grid-gtc-3 grid-gar-150"
     >
       <div className="img-box">

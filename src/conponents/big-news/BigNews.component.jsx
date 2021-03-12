@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 import "./big-news.style.scss";
 
-const BigNews = ({ headline, id }) => {
+const BigNews = ({ headline, category, id }) => {
   return (
-    <Link to={`/geral/${id}`} className="header-big-news">
+    <Link to={`/${category}/noticia/${id}`} className="header-big-news">
       <span className="fs-med fc-primary">{headline.source.name}</span>
       <h2 className="fs-biger fc-dark">{headline.title}</h2>
       {headline.description ? (
@@ -17,6 +17,7 @@ const BigNews = ({ headline, id }) => {
 
 BigNews.propTypes = {
   headline: PropTypes.object.isRequired,
+  category: PropTypes.string.isRequired,
   id: PropTypes.number.isRequired,
 };
 

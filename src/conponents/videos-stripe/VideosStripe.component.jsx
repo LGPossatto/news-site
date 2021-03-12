@@ -75,8 +75,8 @@ const VideosStripe = () => {
       <div className="videos-stripe__top container flex flex-jcsb flex-aic">
         <h3 className="fs-big fc-primary">SdN - TV</h3>
         <div className="move-videos-btn">
-          <ArrowBtn dir="left" moveCarousel={moveCarousel}></ArrowBtn>
-          <ArrowBtn dir="right" moveCarousel={moveCarousel}></ArrowBtn>
+          <ArrowBtn dir="left" handleClick={moveCarousel}></ArrowBtn>
+          <ArrowBtn dir="right" handleClick={moveCarousel}></ArrowBtn>
         </div>
       </div>
       <div className="videos-stripe__box container">
