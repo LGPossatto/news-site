@@ -12,6 +12,7 @@ export const categoryNames = {
   CIENCIA: "ciencia",
   ESPORTE: "esporte",
   TECNOLOGIA: "tecnologia",
+  ESPECIFICO: "especifico",
 };
 
 // process.env.REACT_APP_NEWSAPI_KEY

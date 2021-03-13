@@ -23,6 +23,7 @@ const NewsDetails = ({
     scienceHeadlines,
     sportsHeadlines,
     technologyHeadlines,
+    specificHeadlines,
   } = useContext(NewsContext);
 
   const getNews = (newsCategory) => {
@@ -39,6 +40,8 @@ const NewsDetails = ({
         return sportsHeadlines[id];
       case categoryNames.TECNOLOGIA:
         return technologyHeadlines[id];
+      case categoryNames.ESPECIFICO:
+        return specificHeadlines[id];
       default:
         return topHeadlines[id];
     }

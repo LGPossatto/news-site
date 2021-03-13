@@ -13,7 +13,11 @@ const BurgMenu = ({ navMenuItems }) => {
       <BurgIcon showMenu={showMenu} setShowMenu={setShowMenu}></BurgIcon>
       <div className={`burg-menu__links ${showMenu && "btn-active"}`}>
         {navMenuItems.map((menuItem) => (
-          <MenuItem key={menuItem.id} text={menuItem.name}></MenuItem>
+          <MenuItem
+            key={menuItem.id}
+            text={menuItem.name}
+            category={menuItem.category}
+          ></MenuItem>
         ))}
       </div>
     </div>

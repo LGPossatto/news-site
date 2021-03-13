@@ -24,6 +24,7 @@ const Category = ({
     scienceHeadlines,
     sportsHeadlines,
     technologyHeadlines,
+    specificHeadlines,
   } = useContext(NewsContext);
 
   const getNews = (newsCategory) => {
@@ -40,35 +41,40 @@ const Category = ({
         return sportsHeadlines;
       case categoryNames.TECNOLOGIA:
         return technologyHeadlines;
+      case categoryNames.ESPECIFICO:
+        return specificHeadlines;
       default:
         return topHeadlines;
     }
   };
 
-  let newsList = getNews(category);
-  let endPage = Math.ceil(newsList.length / 10);
-  let index = -1;
-
-  const changePage = (dir) => {
-    index = -1;
-  };
-
   if (topLoading || categoryLoading) {
     return <Spinner></Spinner>;
   } else {
+    let categoryList = getNews(category);
+    const listLength = categoryList.length;
+    let endPage = Math.ceil(listLength / 10);
+    let newsList = [];
+
+    for (
+      let index = parseInt(page + `${0}`);
+      index <= parseInt(page + `${9}`) && index < listLength;
+      index++
+    ) {
+      newsList.push([categoryList[index], index]);
+    }
+
     return (
       <div className="category container">
         {newsList.map((news) => {
-          while (index < 9) {
-            index++;
-            return (
-              <NewsWithImg
-                headline={news}
-                category={category}
-                id={index}
-              ></NewsWithImg>
-            );
-          }
+          return (
+            <NewsWithImg
+              key={news[1]}
+              headline={news[0]}
+              category={category}
+              id={news[1]}
+            ></NewsWithImg>
+          );
         })}
         <div className="category__page flex flex-jcc flex-aic">
           <Link
@@ -83,8 +89,8 @@ const Category = ({
           <div className="page-number fs-big">{parseInt(page) + 1}</div>
           <Link
             to={
-              page >= endPage
-                ? `/${category}/${endPage}`
+              page >= endPage - 1
+                ? `/${category}/${endPage - 1}`
                 : `/${category}/${parseInt(page) + 1}`
             }
           >

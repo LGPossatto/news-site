@@ -26,7 +26,7 @@ const ArrowBtn = ({ dir, handleClick, light }) => {
 ArrowBtn.propTypes = {
   dir: PropTypes.string.isRequired,
   handleClick: PropTypes.func,
-  light: PropTypes.string,
+  light: PropTypes.bool,
 };
 
 export default ArrowBtn;

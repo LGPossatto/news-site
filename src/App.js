@@ -1,4 +1,7 @@
+import { useContext, useEffect } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import NewsContext from "./context/news/newsContext";
 
 import Navbar from "./conponents/navbar/Navbar.component";
 import Footer from "./conponents/footer/Footer.component";
@@ -8,6 +11,13 @@ import NewsDetails from "./pages/news-details/NewsDetails.page";
 import Category from "./pages/category/Category.page";
 
 function App() {
+  const { getAllHeadlines } = useContext(NewsContext);
+
+  useEffect(() => {
+    getAllHeadlines();
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <BrowserRouter>
       <Navbar></Navbar>

@@ -6,16 +6,7 @@ import MainContent from "../../conponents/main-content/MainContent.component";
 import VideosStripe from "../../conponents/videos-stripe/VideosStripe.component";
 import CategoryCluster from "../../conponents/category-cluster/CategoryCluster.component";
 
-import NewsContext from "../../context/news/newsContext";
-
 const Home = () => {
-  const { getAllHeadlines } = useContext(NewsContext);
-
-  useEffect(() => {
-    //getAllHeadlines();
-    // eslint-disable-next-line
-  }, []);
-
   return (
     <>
       <TopNews></TopNews>

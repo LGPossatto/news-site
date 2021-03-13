@@ -7,6 +7,7 @@ import {
   GET_SPORTS_HEADLINES,
   GET_TECHNOLOGY_HEADLINES,
   SET_CATEGORY_LOADING,
+  GET_SPECIFIC_HEADLINES,
 } from "../types";
 
 const newsReducer = (state, action) => {
@@ -26,7 +27,9 @@ const newsReducer = (state, action) => {
     case GET_TECHNOLOGY_HEADLINES:
       return { ...state, technologyHeadlines: action.payload };
     case SET_CATEGORY_LOADING:
-      return { ...state, categoryLoading: false };
+      return { ...state, categoryLoading: !state.categoryLoading };
+    case GET_SPECIFIC_HEADLINES:
+      return { ...state, specificHeadlines: action.payload };
     default:
       return state;
   }

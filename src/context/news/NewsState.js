@@ -5,40 +5,45 @@ import NewsReducer from "./newsReducer";
 import {
   GET_TOP_HEADLINES,
   GET_BUSINESS_HEADLINES,
+  SET_CATEGORY_LOADING,
   GET_ENTERTAINMENT_HEADLINES,
   GET_HEALTH_HEADLINES,
   GET_SCIENCE_HEADLINES,
   GET_SPORTS_HEADLINES,
   GET_TECHNOLOGY_HEADLINES,
-  SET_CATEGORY_LOADING,
+  GET_SPECIFIC_HEADLINES,
 } from "../types";
 
 import { ex_res } from "../../ex_resp";
 
 const NewsState = (props) => {
   const initialState = {
-    topLoading: false,
-    topHeadlines: ex_res.articles,
-    categoryLoading: false,
-    businessHeadlines: ex_res.articles,
-    entertainmentHeadlines: ex_res.articles,
-    healthHeadlines: ex_res.articles,
-    scienceHeadlines: ex_res.articles,
-    sportsHeadlines: ex_res.articles,
-    technologyHeadlines: ex_res.articles,
+    topLoading: true,
+    topHeadlines: [],
+    categoryLoading: true,
+    businessHeadlines: [],
+    entertainmentHeadlines: [],
+    healthHeadlines: [],
+    scienceHeadlines: [],
+    sportsHeadlines: [],
+    technologyHeadlines: [],
+    specificHeadlines: [],
   };
 
   const [state, dispatch] = useReducer(NewsReducer, initialState);
 
   // get data
-  const getData = async (category = "") => {
-    let categoryUrl = "";
+  const getData = async (category = "", search = "") => {
+    let extraUrl = "";
     if (category !== "") {
-      categoryUrl = `&category=${category}`;
+      extraUrl += `&category=${category}`;
+    }
+    if (search !== "") {
+      extraUrl += `&q=${search}`;
     }
 
     const res = await fetch(
-      `https://newsapi.org/v2/top-headlines?country=br${categoryUrl}&apiKey=${process.env.REACT_APP_NEWSAPI_KEY}`
+      `https://newsapi.org/v2/top-headlines?country=br${extraUrl}&apiKey=${process.env.REACT_APP_NEWSAPI_KEY}`
     );
     const data = await res.json();
 
@@ -94,6 +99,17 @@ const NewsState = (props) => {
     dispatch({ type: GET_TECHNOLOGY_HEADLINES, payload: data.articles });
   };
 
+  // get specific headlines
+  const getSpecificHeadlines = async (search) => {
+    setCategoryLoading();
+
+    const data = await getData("", search);
+
+    dispatch({ type: GET_SPECIFIC_HEADLINES, payload: data.articles });
+
+    setCategoryLoading();
+  };
+
   // setCategoryLoading
   const setCategoryLoading = () => {
     dispatch({ type: SET_CATEGORY_LOADING });
@@ -125,6 +141,8 @@ const NewsState = (props) => {
         sportsHeadlines: state.sportsHeadlines,
         technologyHeadlines: state.technologyHeadlines,
         getAllHeadlines,
+        specificHeadlines: state.specificHeadlines,
+        getSpecificHeadlines,
       }}
     >
       {props.children}
