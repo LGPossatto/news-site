@@ -1,4 +1,5 @@
 @import "../../assets/global-styles/colors.style";
+@import "../../assets/global-styles/mixins.style";
 
 .searchbar {
   width: 250px;
@@ -18,5 +19,10 @@
 
   i {
     cursor: pointer;
+  }
+
+  @include bp-tablet {
+    margin: 0 5%;
+    width: 95%;
   }
 }

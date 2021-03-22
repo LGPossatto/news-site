@@ -11,7 +11,15 @@ const ImgBlockNews = ({ headline, category, id, className }) => {
       className={`img-block-news ${className}`}
     >
       <div className="img-box">
-        <img src={headline.urlToImage || placeholderImg} alt="placeholder" />
+        <img
+          src={headline.urlToImage || placeholderImg}
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src =
+              "https://lh3.googleusercontent.com/proxy/_aBh3AoSLUIgy8Vh8xG0Y9kvwJeDEJEramPxZW6Czmd80h80ckTYWSCdFM9K7uVh-vfhb21Nh-Y0AY6wxgLbqJG-qz2cuGZd8Q";
+          }}
+          alt="placeholder"
+        />
       </div>
       <div className="img-block-news_text-box">
         <h2 className="fs-big fc-primary">{headline.title}</h2>
