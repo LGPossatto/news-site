@@ -1,5 +1,3 @@
-import { useContext, useEffect } from "react";
-
 import "./home.style.scss";
 import TopNews from "../../conponents/top-news/TopNews.component";
 import MainContent from "../../conponents/main-content/MainContent.component";

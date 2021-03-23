@@ -14,7 +14,7 @@ import {
   GET_SPECIFIC_HEADLINES,
 } from "../types";
 
-import { ex_res } from "../../ex_resp";
+//import { ex_res } from "../../ex_resp";
 
 const NewsState = (props) => {
   const initialState = {
