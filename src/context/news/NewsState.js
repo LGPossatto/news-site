@@ -15,14 +15,7 @@ import {
 } from "../types";
 
 //import { ex_res } from "../../ex_resp";
-
-let newsApiKey = "";
-
-if (process.env.NODE_ENV !== "production") {
-  newsApiKey = process.env.REACT_APP_NEWS_API_KEY;
-} else {
-  newsApiKey = process.env.REACT_APP_NEWS_API_KEY;
-}
+import { newsApiKey } from "../../utils/utils";
 
 const NewsState = (props) => {
   const initialState = {

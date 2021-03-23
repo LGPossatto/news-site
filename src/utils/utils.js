@@ -14,5 +14,3 @@ export const categoryNames = {
   TECNOLOGIA: "tecnologia",
   ESPECIFICO: "especifico",
 };
-
-// process.env.REACT_APP_NEWSAPI_KEY
