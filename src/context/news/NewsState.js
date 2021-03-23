@@ -15,7 +15,7 @@ import {
 } from "../types";
 
 //import { ex_res } from "../../ex_resp";
-import { newsApiKey } from "../../utils/utils";
+import { newsApiKey } from "../../utils/apikey";
 
 const NewsState = (props) => {
   const initialState = {
