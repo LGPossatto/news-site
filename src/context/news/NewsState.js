@@ -16,6 +16,14 @@ import {
 
 //import { ex_res } from "../../ex_resp";
 
+let newsApiKey = "";
+
+if (process.env.NODE_ENV !== "production") {
+  newsApiKey = process.env.REACT_APP_NEWS_API_KEY;
+} else {
+  newsApiKey = process.env.NEWS_API_KEY;
+}
+
 const NewsState = (props) => {
   const initialState = {
     topLoading: true,
@@ -43,7 +51,7 @@ const NewsState = (props) => {
     }
 
     const res = await fetch(
-      `https://newsapi.org/v2/top-headlines?country=br${extraUrl}&apiKey=${process.env.NEWS_API_KEY}`
+      `https://newsapi.org/v2/top-headlines?country=br${extraUrl}&apiKey=${newsApiKey}`
     );
     const data = await res.json();
 
