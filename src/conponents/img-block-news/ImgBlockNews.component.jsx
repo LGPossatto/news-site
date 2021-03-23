@@ -21,7 +21,7 @@ const ImgBlockNews = ({ headline, category, id, className }) => {
           alt="placeholder"
         />
       </div>
-      <div className="img-block-news_text-box">
+      <div className="img-block-news__text-box">
         <h2 className="fs-big fc-primary">{headline.title}</h2>
         {headline.description ? (
           <p className="fs-med fc-light">{headline.description}</p>

@@ -6,6 +6,10 @@
   @include trans-opacity();
   cursor: pointer;
 
+  .img-box {
+    background-color: $black;
+  }
+
   &__text {
     h2 {
       @include max3l;

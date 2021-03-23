@@ -1,3 +1,4 @@
+@import "../../assets/global-styles/colors.style";
 @import "../../assets/global-styles/mixins.style";
 
 .news-details {
@@ -7,6 +8,7 @@
 
   &__top {
     .img-box {
+      background-color: $black;
       max-width: 25vw;
       max-width: 480px;
       max-height: 25vw;

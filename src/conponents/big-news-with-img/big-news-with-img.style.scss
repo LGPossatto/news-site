@@ -1,3 +1,4 @@
+@import "../../assets/global-styles/colors.style";
 @import "../../assets/global-styles/mixins.style";
 
 .big-news-with-img {
@@ -7,6 +8,7 @@
   overflow: hidden;
 
   .img-box {
+    background-color: $black;
     height: 275px;
   }
 

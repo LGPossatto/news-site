@@ -43,7 +43,7 @@ const NewsState = (props) => {
     }
 
     const res = await fetch(
-      `https://newsapi.org/v2/top-headlines?country=br${extraUrl}&apiKey=${process.env.REACT_APP_NEWSAPI_KEY}`
+      `https://newsapi.org/v2/top-headlines?country=br${extraUrl}&apiKey=${process.env.NEWS_API_KEY}`
     );
     const data = await res.json();
 
