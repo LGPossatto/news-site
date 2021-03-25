@@ -60,8 +60,7 @@ const NewsDetails = ({
               src={news.urlToImage || placeholderImg}
               onError={(e) => {
                 e.target.onerror = null;
-                e.target.src =
-                  "https://lh3.googleusercontent.com/proxy/_aBh3AoSLUIgy8Vh8xG0Y9kvwJeDEJEramPxZW6Czmd80h80ckTYWSCdFM9K7uVh-vfhb21Nh-Y0AY6wxgLbqJG-qz2cuGZd8Q";
+                e.target.src = placeholderImg;
               }}
               alt="placeholder"
             />

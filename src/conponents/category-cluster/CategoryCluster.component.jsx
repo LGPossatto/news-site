@@ -19,7 +19,7 @@ const CategoryCluster = () => {
     technologyHeadlines,
   } = useContext(NewsContext);
 
-  //return null;
+  // return null;
 
   if (categoryLoading) {
     return <Spinner></Spinner>;

@@ -11,7 +11,7 @@ import Spinner from "../spinner/Spinner.component";
 const MainContent = () => {
   const { topLoading, topHeadlines } = useContext(NewsContext);
 
-  //return null;
+  // return null;
 
   if (topLoading) {
     return <Spinner></Spinner>;

@@ -6,14 +6,15 @@ import {
   GET_SCIENCE_HEADLINES,
   GET_SPORTS_HEADLINES,
   GET_TECHNOLOGY_HEADLINES,
-  SET_CATEGORY_LOADING,
   GET_SPECIFIC_HEADLINES,
+  SET_TOP_LOADING,
+  SET_CATEGORY_LOADING,
 } from "../types";
 
 const newsReducer = (state, action) => {
   switch (action.type) {
     case GET_TOP_HEADLINES:
-      return { ...state, topHeadlines: action.payload, topLoading: false };
+      return { ...state, topHeadlines: action.payload };
     case GET_BUSINESS_HEADLINES:
       return { ...state, businessHeadlines: action.payload };
     case GET_ENTERTAINMENT_HEADLINES:
@@ -26,10 +27,12 @@ const newsReducer = (state, action) => {
       return { ...state, sportsHeadlines: action.payload };
     case GET_TECHNOLOGY_HEADLINES:
       return { ...state, technologyHeadlines: action.payload };
-    case SET_CATEGORY_LOADING:
-      return { ...state, categoryLoading: !state.categoryLoading };
     case GET_SPECIFIC_HEADLINES:
       return { ...state, specificHeadlines: action.payload };
+    case SET_TOP_LOADING:
+      return { ...state, topLoading: !state.topLoading };
+    case SET_CATEGORY_LOADING:
+      return { ...state, categoryLoading: !state.categoryLoading };
     default:
       return state;
   }

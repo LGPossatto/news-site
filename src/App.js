@@ -11,10 +11,11 @@ import NewsDetails from "./pages/news-details/NewsDetails.page";
 import Category from "./pages/category/Category.page";
 
 function App() {
+  // eslint-disable-next-line
   const { getAllHeadlines } = useContext(NewsContext);
 
   useEffect(() => {
-    getAllHeadlines();
+    // getAllHeadlines();
     // eslint-disable-next-line
   }, []);
 

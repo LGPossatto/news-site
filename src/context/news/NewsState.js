@@ -5,30 +5,64 @@ import NewsReducer from "./newsReducer";
 import {
   GET_TOP_HEADLINES,
   GET_BUSINESS_HEADLINES,
-  SET_CATEGORY_LOADING,
   GET_ENTERTAINMENT_HEADLINES,
   GET_HEALTH_HEADLINES,
   GET_SCIENCE_HEADLINES,
   GET_SPORTS_HEADLINES,
   GET_TECHNOLOGY_HEADLINES,
   GET_SPECIFIC_HEADLINES,
+  SET_TOP_LOADING,
+  SET_CATEGORY_LOADING,
 } from "../types";
 
-//import { ex_res } from "../../ex_resp";
-import { newsApiKey } from "../../utils/apikey";
+let ex_res_general = false;
+let ex_res_business = false;
+let ex_res_entertainment = false;
+let ex_res_health = false;
+let ex_res_science = false;
+let ex_res_sports = false;
+let ex_res_technology = false;
+let loading = true;
+
+try {
+  const ex_res = require("../../utils/ex_resp");
+  ex_res_general = ex_res.ex_res_general;
+  ex_res_business = ex_res.ex_res_business;
+  ex_res_entertainment = ex_res.ex_res_entertainment;
+  ex_res_health = ex_res.ex_res_health;
+  ex_res_science = ex_res.ex_res_science;
+  ex_res_sports = ex_res.ex_res_sports;
+  ex_res_technology = ex_res.ex_res_technology;
+  loading = false;
+  console.log(
+    "Não foi possível receber as notícias da API, utilizando notícias não dinâmicas agora!"
+  );
+} catch (error) {
+  console.log(
+    "Foi possível receber as notícias da API, utilizando notícias da última hora agora!"
+  );
+}
+
+let newsApiKey = "your_API_key_here";
+
+/* if (process.env.NODE_ENV !== "production") {
+  newsApiKey = process.env.REACT_APP_NEWS_API_KEY;
+} else {
+  newsApiKey = process.env.NEWS_API_KEY;
+} */
 
 const NewsState = (props) => {
   const initialState = {
-    topLoading: true,
-    topHeadlines: [],
-    categoryLoading: true,
-    businessHeadlines: [],
-    entertainmentHeadlines: [],
-    healthHeadlines: [],
-    scienceHeadlines: [],
-    sportsHeadlines: [],
-    technologyHeadlines: [],
-    specificHeadlines: [],
+    topLoading: loading,
+    topHeadlines: ex_res_general || [],
+    categoryLoading: loading,
+    businessHeadlines: ex_res_business || [],
+    entertainmentHeadlines: ex_res_entertainment || [],
+    healthHeadlines: ex_res_health || [],
+    scienceHeadlines: ex_res_science || [],
+    sportsHeadlines: ex_res_sports || [],
+    technologyHeadlines: ex_res_technology || [],
+    specificHeadlines: ex_res_general || [],
   };
 
   const [state, dispatch] = useReducer(NewsReducer, initialState);
@@ -51,11 +85,22 @@ const NewsState = (props) => {
     return data;
   };
 
+  // set top loading
+  const setTopLoading = () => {
+    dispatch({ type: SET_TOP_LOADING });
+  };
+
   // get top headlines
   const getTopHeadlines = async () => {
     const data = await getData();
 
     dispatch({ type: GET_TOP_HEADLINES, payload: data.articles });
+    setTopLoading();
+  };
+
+  // setCategoryLoading
+  const setCategoryLoading = () => {
+    dispatch({ type: SET_CATEGORY_LOADING });
   };
 
   // get business headlines
@@ -103,17 +148,10 @@ const NewsState = (props) => {
   // get specific headlines
   const getSpecificHeadlines = async (search) => {
     setCategoryLoading();
-
     const data = await getData("", search);
 
-    dispatch({ type: GET_SPECIFIC_HEADLINES, payload: data.articles });
-
+    // dispatch({ type: GET_SPECIFIC_HEADLINES, payload: data.articles });
     setCategoryLoading();
-  };
-
-  // setCategoryLoading
-  const setCategoryLoading = () => {
-    dispatch({ type: SET_CATEGORY_LOADING });
   };
 
   // get all headlines
