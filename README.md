@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# news-site
+##### Link => https://salaodenoticias.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###### en =>  
+This site was made using React and is part of my portfolio.  
+The site gets information using the NewsAPI service  
+and is based around [Jovem Pan](https://jovempan.com.br/) and [G1](https://g1.globo.com/) news site.  
+  
+To run the site locally open in your terminal the site root folder and run "npm start",  
+you will need nodeJS installed on your pc.  
+  
+* The site link does not get dinamic news, becase of the NewsAPI developer plan restrictions.  
+* If you want to get dinamic news fallow the next steps after downloading the archives:  
+* 1 - get an API key [here](https://newsapi.org/);  
+* 2 - go to context/news/NewsState.js;  
+* 3 - put your API key on the newsApiaKey var, line 46;  
+* 4 - uncomment getSpecificHeadlines dispatch, line 153;  
+* 5 - go to App.js;  
+* 6 - uncomment getAllHeadlines func, line 18;  
+* 7 - delete ex-resp.js file, on utils folder;  
+* 8 - start/restart the server;  
+  
+###### pt-br =>  
+Este site foi feito utilizando React e faz parte do meu portfólio.  
+O site recebe informações através dos serviços da NewsAPI  
+e é baseado nos sites da [Jovem Pan](https://jovempan.com.br/) e [G1](https://g1.globo.com/).  
+  
+Para iniciar o site localmente abra em seu terminal a pasta base do site e rode o seguinte script "npm start",  
+você irá precisar do nodeJS instalado em seu computador.  
+  
+* O link do site não gera notícias dinamicamente, devido às restrições a desenvolvedores da NewsAPI.  
+* Se você quer gerar notícias dinamicamente siga os seguintes passos após efetuar a transferência dos arquivos:  
+* 1 - Pegue uma chave para a API [aqui](https://newsapi.org/);  
+* 2 - vá para context/news/NewsState.js;  
+* 3 - coloque a sua chave na variável newsApiKey, linha 46;  
+* 4 - descomente getSpecificHeadlines dispatch, linha 153;  
+* 5 - vá para App.js;  
+* 6 - descomente a função getAllHeadlines, linha 18;  
+* 7 - delete o arquivo ex-resp.js, na pasta utils;  
+* 8 - inicie/reinicie o servidor;  
