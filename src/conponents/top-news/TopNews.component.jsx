@@ -1,17 +1,16 @@
-import { useContext } from "react";
-
-import NewsContext from "../../context/news/newsContext";
+import { useSelector } from "react-redux";
 
 import "./top-news.style.scss";
 import ImgBlockNews from "../img-block-news/ImgBlockNews.component";
 import Spinner from "../spinner/Spinner.component";
 
 const TopNews = () => {
-  const { topLoading, topHeadlines } = useContext(NewsContext);
+  const topNews = useSelector((state) => state.topNews);
+  const { topHeadlines } = topNews;
 
-  //return null;
+  return null;
 
-  if (topLoading) {
+  if (topHeadlines === null || topHeadlines === undefined) {
     return <Spinner></Spinner>;
   } else {
     return (

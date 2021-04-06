@@ -1,7 +1,14 @@
-import { useContext, useEffect } from "react";
+import { useEffect } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import NewsContext from "./context/news/newsContext";
+import { useDispatch } from "react-redux";
+import { getTopNews } from "./redux/top-news/topNewsActions";
+import { getBusinessNews } from "./redux/business-news/businessNewsActions";
+import { getEntertainmentsNews } from "./redux/entertainment-news/entertainmentNewsActions";
+import { getHealthNews } from "./redux/health-news/healthNewsActions";
+import { getScienceNews } from "./redux/science-news/scienceNewsActions";
+import { getSportsNews } from "./redux/sports-news/sportsNewsActions";
+import { getTechnologyNews } from "./redux/technology-news/technologyNewsActions";
 
 import Navbar from "./conponents/navbar/Navbar.component";
 import Footer from "./conponents/footer/Footer.component";
@@ -11,10 +18,16 @@ import NewsDetails from "./pages/news-details/NewsDetails.page";
 import Category from "./pages/category/Category.page";
 
 function App() {
-  const { getAllHeadlines } = useContext(NewsContext);
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    // getAllHeadlines();
+    //dispatch(getTopNews);
+    //dispatch(getBusinessNews);
+    //dispatch(getEntertainmentsNews);
+    //dispatch(getHealthNews);
+    //dispatch(getScienceNews);
+    //dispatch(getSportsNews);
+    //dispatch(getTechnologyNews);
     // eslint-disable-next-line
   }, []);
 

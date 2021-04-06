@@ -1,15 +1,9 @@
-import { useContext } from "react";
-
-import NewsContext from "../../context/news/newsContext";
-
 import "./category-cluster.style.scss";
 import CategoryNews from "../category-news/CategoryNews.componente";
 import Spinner from "../spinner/Spinner.component";
 
-import { categoryNames } from "../../utils/utils";
-
 const CategoryCluster = () => {
-  const {
+  /* const {
     categoryLoading,
     businessHeadlines,
     entertainmentHeadlines,
@@ -17,9 +11,9 @@ const CategoryCluster = () => {
     scienceHeadlines,
     sportsHeadlines,
     technologyHeadlines,
-  } = useContext(NewsContext);
+  } = useContext(NewsContext); */
 
-  // return null;
+  return null;
 
   if (categoryLoading) {
     return <Spinner></Spinner>;
@@ -27,35 +21,17 @@ const CategoryCluster = () => {
     return (
       <div className="container">
         <div className="category-cluster grid grid-g-2 grid-gtc-3">
+          <CategoryNews categoryTitle="negócio" categoryId={0}></CategoryNews>
           <CategoryNews
-            category={categoryNames.NEGOCIO}
-            categoryTitle="negócio"
-            categoryHeadline={businessHeadlines}
-          ></CategoryNews>
-          <CategoryNews
-            category={categoryNames.ENTRETENIMENTO}
             categoryTitle="entretenimento"
-            categoryHeadline={entertainmentHeadlines}
+            categoryId={1}
           ></CategoryNews>
+          <CategoryNews categoryTitle="saúde" categoryId={2}></CategoryNews>
+          <CategoryNews categoryTitle="ciência" categoryId={3}></CategoryNews>
+          <CategoryNews categoryTitle="esporte" categoryId={4}></CategoryNews>
           <CategoryNews
-            category={categoryNames.SAUDE}
-            categoryTitle="saúde"
-            categoryHeadline={healthHeadlines}
-          ></CategoryNews>
-          <CategoryNews
-            category={categoryNames.CIENCIA}
-            categoryTitle="ciência"
-            categoryHeadline={scienceHeadlines}
-          ></CategoryNews>
-          <CategoryNews
-            category={categoryNames.ESPORTE}
-            categoryTitle="esporte"
-            categoryHeadline={sportsHeadlines}
-          ></CategoryNews>
-          <CategoryNews
-            category={categoryNames.TECNOLOGIA}
             categoryTitle="tecnologia"
-            categoryHeadline={technologyHeadlines}
+            categoryId={5}
           ></CategoryNews>
         </div>
       </div>

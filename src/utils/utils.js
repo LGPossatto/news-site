@@ -4,6 +4,25 @@ export const toTitleCase = (str) => {
   });
 };
 
+export const getData = async (category = "", search = "") => {
+  const newsApiKey = process.env.REACT_APP_API_KEY;
+
+  let extraUrl = "";
+  if (category !== "") {
+    extraUrl += `&category=${category}`;
+  }
+  if (search !== "") {
+    extraUrl += `&q=${search}`;
+  }
+
+  const res = await fetch(
+    `https://newsapi.org/v2/top-headlines?country=br${extraUrl}&apiKey=${newsApiKey}`
+  );
+  const data = await res.json();
+
+  return data;
+};
+
 export const categoryNames = {
   GERAL: "geral",
   NEGOCIO: "negocio",
@@ -15,4 +34,4 @@ export const categoryNames = {
   ESPECIFICO: "especifico",
 };
 
-// process.env.REACT_APP_NEWSAPI_KEY
+// process.env.REACT_APP_API_KEY
