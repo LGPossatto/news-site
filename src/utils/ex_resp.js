@@ -1,294 +1,296 @@
 export const ex_res_general = [
   {
-    source: { id: null, name: "Otempo.com.br" },
-    author: "Da Redação",
-    title:
-      "Cruzeiro parabeniza o Galo pelo aniversário de 113 anos do clube alvinegro - O Tempo",
-    description:
-      "Assim como o rival fez no último dia 2 de janeiro, Raposa felicita o adversário nas redes sociais",
-    url:
-      "https://www.otempo.com.br/superfc/cruzeiro/cruzeiro-parabeniza-o-galo-pelo-aniversario-de-113-anos-do-clube-alvinegro-1.2463998",
-    urlToImage:
-      "https://www.otempo.com.br/image/contentid/policy:1.2464000:1616677774/CruparaGalo.png?f=3x2&w=620&$p$f$w=8b64f7e",
-    publishedAt: "2021-03-25T13:10:00Z",
-    content:
-      "Rivalidade, sim, inimigos, nunca. Assim a dupla Atlético e Cruzeiro vai espalhando o exemplo nas redes sociais nos dias de aniversário de cada clube. Nesta quinta-feira (25), a Raposa felicitou o riv… [+552 chars]",
-  },
-  {
-    source: { id: null, name: "Terra.com.br" },
-    author: null,
-    title:
-      "O sertanejo Cristiano, da dupla com Zé Neto, precisou ser internado por complicações da covid-19 - Terra",
-    description:
-      "O cantor foi hospitalizado por precaução em São José do Rio Preto, SP, nesta quarta-feira, 24",
-    url:
-      "https://www.terra.com.br/diversao/gente/o-sertanejo-cristiano-da-dupla-com-ze-neto-precisou-ser-internado-por-complicacoes-da-covid-19,21f5123f7e7f2d366d0caa49939d2a1d3be7yrw9.html",
-    urlToImage:
-      "https://p2.trrsf.com/image/fget/cf/1200/628/middle/images.terra.com/2021/03/25/306812714-1616074017765.jpg",
-    publishedAt: "2021-03-25T13:02:00Z",
-    content:
-      "O sertanejo Cristiano, que faz dupla com Zé Neto, foi internado nesta quarta-feira, 24, no Hospital Base, em São José do Rio Preto, interior de São Paulo, por complicações da covid-19. O cantor divul… [+2231 chars]",
-  },
-  {
     source: { id: "globo", name: "Globo" },
     author: null,
-    title:
-      "IPCA-15: prévia da inflação oficial acelera para 0,93% em março - G1",
-    description:
-      "É o maior resultado para um mês de março desde 2015. Em 12 meses, alta acumulada chega a 5,57%. Gasolina foi o item que mais pressionou a inflação no mês, com alta de 11,18%.",
+    title: "STF julga liberação de cultos e missas na pandemia - G1",
+    description: "STF julga liberação de cultos e missas na pandemia",
     url:
-      "https://g1.globo.com/economia/noticia/2021/03/25/ipca-15-previa-da-inflacao-oficial-acelera-para-093percent-em-marco.ghtml",
+      "https://g1.globo.com/politica/ao-vivo/stf-julgamento-cultos-e-missas-presenciais.ghtml",
     urlToImage:
-      "https://s2.glbimg.com/jKygDb0GeP2nuRRBofwppo7PQ0c=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/R/9/72lBsDTeaWj4EKc0YRcA/2021-03-11t165757z-968477120-rc249m9rz2ny-rtrmadp-3-brazil-fuel-crime.jpg",
-    publishedAt: "2021-03-25T12:01:00Z",
-    content:
-      "O Índice Nacional de Preços ao Consumidor Amplo 15 (IPCA-15), que é uma prévia da inflação oficial do país, saltou para 0,93% em março, segundo divulgou nesta quinta-feira (25) o Instituto Brasileiro… [+4505 chars]",
-  },
-  {
-    source: { id: null, name: "Ig.com.br" },
-    author: "O Dia",
-    title:
-      "Alô, Carla Diaz! Sarah dá 'cantada' em Arthur: 'Minha pressão até caiu' - Jornal O Dia",
-    description:
-      "Sister brincou de dar em cima de Rodolffo e do crossfiteiro na festa desta quarta-feira",
-    url:
-      "https://odia.ig.com.br/diversao/bbb/2021/03/6112570-alo-carla-diaz-sarah-da-cantada-em-arthur-minha-pressao-ate-caiu.html",
-    urlToImage:
-      "https://odia.ig.com.br/_midias/jpg/2021/03/25/1200x750/1_sarah-21521323.jpg",
-    publishedAt: "2021-03-25T11:54:00Z",
-    content:
-      "Namorado de Viih Tube desmente rumores de traição: 'Sei que não fiz nada'\r\nBruno Magri, de 23 anos, ainda falou sobre casamento\r\nPublicado 25/03/2021 08:42 | Atualizado há 16 minutos",
-  },
-  {
-    source: { id: null, name: "Moneytimes.com.br" },
-    author: "Reuters",
-    title:
-      "Banco Central prevê primeiro superávit nas contas externas em 14 anos em... - Money Times",
-    description:
-      "A expectativa do BC é que a balança comercial feche este ano com superávit de 70 bilhões de dólares, ante 53 bilhões de dólares estimados antes (Imagem: Reuters/Adriano Machado) O Banco Central passou a projetar uma superávit nas transações correntes do país …",
-    url:
-      "https://www.moneytimes.com.br/banco-central-preve-primeiro-superavit-nas-contas-externas-em-14-anos-em-2021/",
-    urlToImage: "https://media.moneytimes.com.br/uploads/2020/05/1-2.jpg",
-    publishedAt: "2021-03-25T11:52:15Z",
-    content:
-      "A expectativa do BC é que a balança comercial feche este ano com superávit de 70 bilhões de dólares, ante 53 bilhões de dólares estimados antes (Imagem: Reuters/Adriano Machado)\r\nO Banco Centralpasso… [+1257 chars]",
-  },
-  {
-    source: { id: "globo", name: "Globo" },
-    author: null,
-    title:
-      "Navegação no Canal de Suez segue suspensa; autoridades tentam fazer meganavio flutuar - G1",
-    description:
-      "Cargueiro de 220 mil toneladas e 400 m de comprimento é maior que a Torre Eiffel, encalhou em uma das principais passagens náuticas do mundo e bloqueou completamente o trânsito.",
-    url:
-      "https://g1.globo.com/mundo/noticia/2021/03/25/navegacao-no-canal-de-suez-segue-suspensa-autoridades-tentam-fazer-meganavio-flutuar.ghtml",
-    urlToImage:
-      "https://s2.glbimg.com/BLfhXRIXs76nrVWIeMuyR-UTJmE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/5/J/WSIjJcSuCxVbiHYoFqPg/evergiven.jpg",
-    publishedAt: "2021-03-25T11:14:48Z",
-    content:
-      "A Autoridade do Canal de Suez (SCA, na sigla em inglês) informou nesta quinta-feira (25) que segue com os trabalhos de flutuação para tentar tirar o navio da margem do canal e que a navegação está te… [+4448 chars]",
-  },
-  {
-    source: { id: "info-money", name: "InfoMoney" },
-    author: null,
-    title:
-      "Capitais antecipam feriados para evitar colapso no sistema de saúde; veja o abre e o que fecha - InfoMoney",
-    description:
-      "São Paulo, Rio de Janeiro e Campo Grande estão entre capitais estaduais que anteciparam feriados para diminuir disseminação do vírus",
-    url:
-      "https://www.infomoney.com.br/economia/capitais-antecipam-feriados-para-evitar-colapso-no-sistema-de-saude-veja-o-abre-e-o-que-fecha/",
-    urlToImage:
-      "https://www.infomoney.com.br/wp-content/uploads/2019/06/copacabana-praia-rio.jpg?fit=900%2C599&quality=70&strip=all",
-    publishedAt: "2021-03-25T11:00:46Z",
-    content:
-      "SÃO PAULO  Para conter o avanço da pandemia de Covid-19 e evitar o colapso dos sistemas de saúde locais, diversas cidades brasileiras anunciaram planos para a criação de um feriado estendido junto co… [+4330 chars]",
-  },
-  {
-    source: { id: null, name: "Uol.com.br" },
-    author: "CARAS Brasil",
-    title:
-      "Carla Diaz desabafa sobre as críticas: Não me vejo como trouxa e como burra - CARAS Brasil",
-    description:
-      "Carla Diaz participou do programa A Eliminação e desabafou sobre as críticas recebidas após sua eliminação",
-    url:
-      "https://caras.uol.com.br/big-brother/carla-diaz-desabafa-sobre-as-criticas-nao-me-vejo-como-trouxa-e-como-burra.phtml",
-    urlToImage:
-      "https://caras.uol.com.br/images/large/2021/03/25/carla-diaz-desabafa-sobre-as-criticas-apos-saida-do-bbb21-968269.jpg?v=fb",
-    publishedAt: "2021-03-25T10:18:26Z",
-    content:
-      "Carla Diaz participou do programa A Eliminação e desabafou sobre as críticas recebidas após sua eliminaçãoCarla Diaz participou do programa 'A Eliminação', no Multishow, e desabafou sobre o seu prime… [+1595 chars]",
-  },
-  {
-    source: { id: "info-money", name: "InfoMoney" },
-    author: null,
-    title:
-      "Rodrigo Limp é escolhido como novo CEO da Eletrobras, fora de processo seletivo; conselheiro renuncia - InfoMoney",
-    description:
-      'Nome do novo presidente foi indicado pelo "acionista controlador", a União, fora do processo seletivo, o que levou à saída de Mauro da Cunha do Conselho',
-    url:
-      "https://www.infomoney.com.br/mercados/rodrigo-limp-e-escolhido-como-novo-ceo-da-eletrobras-conselheiro-renuncia/",
-    urlToImage:
-      "https://www.infomoney.com.br/wp-content/uploads/2021/03/rodrigo-limp.jpg?fit=984%2C653&quality=70&strip=all",
-    publishedAt: "2021-03-25T10:17:28Z",
-    content:
-      "Rodrigo Limp (Foto: Pedro França/Agência Senado) \r\nA Eletrobras (ELET3;ELET6) informou que o seu conselho de administração decidiu, por maioria, recomendar o nome de Rodrigo Limp para ocupar uma vaga… [+4446 chars]",
-  },
-  {
-    source: { id: null, name: "Cnnbrasil.com.br" },
-    author: "Da Reuters",
-    title:
-      "Covid-19: Mais da metade dos israelenses já recebeu as duas doses da vacina - CNN Brasil",
-    description:
-      "55,96% da população israelense recebeu uma dose da vacina; um terço dos habitantes estão abaixo dos 16 anos, portanto, a imunização se aproxima da totalidade",
-    url:
-      "https://www.cnnbrasil.com.br/internacional/2021/03/25/covid-19-mais-da-metade-dos-israelenses-ja-recebeu-as-duas-doses-da-vacina",
-    urlToImage:
-      "https://mediastorage.cnnbrasil.com.br/IMAGES/00/00/02/22438_9D1036D8D9E44664.png",
-    publishedAt: "2021-03-25T10:10:00Z",
-    content:
-      "Israel administrou duas doses da vacina contra a Covid-19 em mais da metade de sua população, disse o ministro da Saúde nesta quinta-feira (25).\r\nA distribuição da vacina Pfizer Inc./BioNTech SA em I… [+2762 chars]",
-  },
-  {
-    source: { id: "google-news", name: "Google News" },
-    author: null,
-    title:
-      "O que significa o recado de Arthur Lira a Jair Bolsonaro - CartaCapital",
-    description: null,
-    url:
-      "https://news.google.com/__i/rss/rd/articles/CBMiYmh0dHBzOi8vd3d3LmNhcnRhY2FwaXRhbC5jb20uYnIvcG9saXRpY2Evby1xdWUtc2lnbmlmaWNhLW8tcmVjYWRvLWRlLWFydGh1ci1saXJhLWEtamFpci1ib2xzb25hcm8v0gFmaHR0cHM6Ly93d3cuY2FydGFjYXBpdGFsLmNvbS5ici9wb2xpdGljYS9vLXF1ZS1zaWduaWZpY2Etby1yZWNhZG8tZGUtYXJ0aHVyLWxpcmEtYS1qYWlyLWJvbHNvbmFyby9hbXAv?oc=5",
-    urlToImage: null,
-    publishedAt: "2021-03-25T09:47:00Z",
+      "https://s2.glbimg.com/IlpEMU_7guPD_TZr5kXf2Xv4WNI=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/p/0/Cl6tQIQoqwXZIP4mBMdg/img-facebook.png",
+    publishedAt: "2021-04-07T19:50:00Z",
     content: null,
   },
   {
-    source: { id: "google-news", name: "Google News" },
-    author: null,
+    source: { id: null, name: "Superesportes.com.br" },
+    author: "Superesportes, Superesportes",
     title:
-      "Chamusca, do Botafogo, aprova limite para troca de técnicos no Brasileiro: ‘CBF deveria estender para a Série - FogãoNET",
-    description: null,
+      "Conceição define substituto de Manoel e escala Cruzeiro para jogo em BH - Superesportes",
+    description:
+      "Duelo diante do Coimbra, às 17h30 desta quarta, será no Independência",
     url:
-      "https://news.google.com/__i/rss/rd/articles/CBMibWh0dHBzOi8vd3d3LmZvZ2FvbmV0LmNvbS9ub3RpY2lhL2NoYW11c2NhLWJvdGFmb2dvLWFwcm92YS1saW1pdGUtdHJvY2EtdGVjbmljb3MtY2JmLWRldmVyaWEtZXN0ZW5kZXItc2VyaWUtYi_SAXFodHRwczovL3d3dy5mb2dhb25ldC5jb20vbm90aWNpYS9jaGFtdXNjYS1ib3RhZm9nby1hcHJvdmEtbGltaXRlLXRyb2NhLXRlY25pY29zLWNiZi1kZXZlcmlhLWVzdGVuZGVyLXNlcmllLWIvYW1wLw?oc=5",
-    urlToImage: null,
-    publishedAt: "2021-03-25T09:30:00Z",
+      "https://www.mg.superesportes.com.br/app/noticias/futebol/cruzeiro/2021/04/07/noticia_cruzeiro,3910124/conceicao-define-substituto-de-manoel-e-escala-cruzeiro-para-jogo-em-bh.shtml",
+    urlToImage:
+      "https://i.superesportes.com.br/QMNQ2UFNdwLv_RkAm73BnfM26c8=/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2021/04/07/3910124/20210407163225414930u.jpg",
+    publishedAt: "2021-04-07T19:26:00Z",
+    content:
+      "O Cruzeiro inicia o duelo desta quarta escalado com Fábio; Cáceres, Ramon, Weverton e Matheus Pereira; Adriano, Matheus Barbosa e Marcinho; Airton, Bruno José e Rafael Sobis.Para o decorrer do jogo, … [+259 chars]",
+  },
+  {
+    source: { id: null, name: "Gremio.net" },
+    author: "Mavetec Sistemas",
+    title:
+      "Grêmio comunica o retorno dos atletas Vanderson e Paulo Victor - Grêmio Foot-Ball Porto Alegrense",
+    description: "Jogadores retornam em voo sanitário nesta quarta-feira",
+    url:
+      "https://gremio.net/noticias/detalhes/24193/gremio-comunica-o-retorno-dos-atletas-vanderson-e-paulo-victor-",
+    urlToImage: "https://gremio.net/assets_site/img/noticias/md/../default.jpg",
+    publishedAt: "2021-04-07T18:56:15Z",
     content: null,
   },
   {
-    source: { id: null, name: "BBC News" },
-    author: "https://www.facebook.com/bbcnews",
+    source: { id: null, name: "Opovo.com.br" },
+    author: "O Povo",
     title:
-      "Coronavírus | 'É como soco no estômago': anestesista teme cenas de guerra com falta de sedativos para pacientes intubados - BBC News Brasil",
+      '"Não vai ter lockdown nacional", afirma Bolsonaro após novo recorde de mortes por Covid - O POVO',
     description:
-      "Médico do Hospital Tacchini, no RS, ele diz que está tendo que usar medicamentos em desuso e já prepara estoque de antipsicóticos e antialérgicos, pelo efeito colateral de sonolência, para usar na falta de sedativos.",
-    url: "https://www.bbc.com/portuguese/brasil-56457568",
-    urlToImage:
-      "https://ichef.bbci.co.uk/news/1024/branded_portuguese/0891/production/_117639120_066374815-1.jpg",
-    publishedAt: "2021-03-25T09:10:15Z",
-    content:
-      "<ul><li>Nathalia Passarinho - @npassarinho</li><li>Da BBC News Brasil em Londres</li></ul>\r\nCrédito, Arquivo pessoal\r\nLegenda da foto, Médico do Hospital Tacchini, no RS, Leonardo Camargo diz que est… [+7648 chars]",
-  },
-  {
-    source: { id: "globo", name: "Globo" },
-    author: "Carolina Brígido",
-    title:
-      "Supremo deve confirmar em plenário decisão de Fachin que anulou condenações de Lula - Jornal O Globo",
-    description:
-      "Entendimento de que processos não poderiam ter sido julgados em Curitiba tem apoio até mesmo entre ministros favoráveis à Lava-Jato",
+      "Durante discurso em Chapecó, Santa Catarina, o chefe do Executivo também disse que o Exército não será utilizado para fiscalizar as medidas restritivas nos estados",
     url:
-      "https://oglobo.globo.com/brasil/supremo-deve-confirmar-em-plenario-decisao-de-fachin-que-anulou-condenacoes-de-lula-1-24940118",
+      "https://www.opovo.com.br/noticias/politica/2021/04/07/nao-vai-ter-lockdown-nacional---afirma-bolsonaro-apos-novo-recorde-de-mortes-por-covid.html",
     urlToImage:
-      "https://ogimg.infoglobo.com.br/in/24940129-c01-4d0/FT1086A/posse-nunes-marques.jpg",
-    publishedAt: "2021-03-25T07:30:01Z",
+      "https://www.opovo.com.br/_midias/jpg/2021/04/07/chapeco001-15385452.jpg",
+    publishedAt: "2021-04-07T18:50:00Z",
     content:
-      "BRASÍLIA O Supremo Tribunal Federal (STF) se prepara nos bastidores para confirmar, no julgamento em plenário, a decisão do ministro Edson Fachin que anulou as condenações impostas pelo ex-juiz Sergi… [+4955 chars]",
-  },
-  {
-    source: { id: "globo", name: "Globo" },
-    author: null,
-    title:
-      "Análise: dar espaço aos jovens é a principal utilidade do Paulistão para o Palmeiras hoje - globoesporte.com",
-    description:
-      "Verdão pode repetir 2020 e ganhar reforços para o elenco durante a disputa do estadual",
-    url:
-      "https://globoesporte.globo.com/futebol/times/palmeiras/noticia/noticias-palmeiras-analise-utilidade-paulistao-jovens-garotos-base.ghtml",
-    urlToImage:
-      "https://s2.glbimg.com/aZtIOTqOZyIj-wl113HtfZWxyb0=/1200x/smart/filters:cover():strip_icc()/s04.video.glbimg.com/x720/9379811.jpg",
-    publishedAt: "2021-03-25T07:00:41Z",
-    content:
-      "O Palmeiras é o atual campeão do Paulistão, torneio que merece ser valorizado e teve grande importância no sucesso do ano esportivo do Verdão em 2020. Mas, para a temporada de 2021, o planejamento da… [+3099 chars]",
+      "O Presidente Jair Bolsonaro visitou, na manhã desta quarta-feira (7), as instalações do Centro Avançado de Atendimento Covid-19, em Chapecó (SC)... (Foto: Alan Santos/PR)\r\nUm dia após o País ter bati… [+1442 chars]",
   },
   {
     source: { id: null, name: "Uol.com.br" },
     author: "UOL",
     title:
-      "Renato Maurício Prado: Flamengo sem nenhum titular está sobrando no Carioca - UOL",
+      "Montadoras brigam com matrizes todo dia para se manter no país, diz Anfavea - UOL",
     description:
-      "Campeão brasileiro na última temporada, o Flamengo ainda não conta com todos os seus principais jogadores para a disputa do Campeonato Carioca, mas atingiu a liderança ao vencer ontem (24) o clássico diante do Botafogo, no Nilton Santos, por 2 a 0, em jog",
+      'O presidente da Anfavea (Associação Nacional dos Fabricantes de Veículos Automotores), Luiz Carlos Moraes, afirmou ao UOL nesta quarta-feira (7) que executivos das montadoras têm que travar uma "briga diária" para convencer as matrizes a manter investimen',
     url:
-      "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2021/03/25/renato-mauricio-prado-flamengo-sem-nenhum-titular-esta-sobrando-no-carioca.htm",
+      "https://economia.uol.com.br/noticias/redacao/2021/04/07/presidente-anfavea-setor-automotivo-governo-bolsonaro-congresso.htm",
     urlToImage:
-      "https://conteudo.imguol.com.br/c/esporte/11/2021/03/24/rodrigo-muniz-atacante-do-flamengo-celebra-gol-contra-o-botafogo-1616636273987_v2_615x300.jpg",
-    publishedAt: "2021-03-25T07:00:00Z",
+      "https://conteudo.imguol.com.br/c/entretenimento/e8/2019/05/01/luiz-carlos-moraes-presidente-da-anfavea-1556723204139_v2_615x300.jpg",
+    publishedAt: "2021-04-07T18:27:19Z",
     content:
-      "Campeão brasileiro na última temporada, o Flamengo ainda não conta com todos os seus principais jogadores para a disputa do Campeonato Carioca, mas atingiu a liderança ao vencer ontem (24) o clássico… [+1938 chars]",
+      'O presidente da Anfavea (Associação Nacional dos Fabricantes de Veículos Automotores), Luiz Carlos Moraes, afirmou ao UOL nesta quarta-feira (7) que executivos das montadoras têm que travar uma "brig… [+3210 chars]',
+  },
+  {
+    source: { id: "info-money", name: "InfoMoney" },
+    author: null,
+    title:
+      "Economia dos EUA ainda precisa dar mais sinais de melhora para que Fed mude políticas, aponta ata do Fomc - InfoMoney",
+    description:
+      'Os integrantes do Fomc disseram que os US$ 120 bilhões por mês em compras de títulos "estavam fornecendo um apoio substancial à economia"',
+    url:
+      "https://www.infomoney.com.br/mercados/economia-dos-eua-ainda-precisa-dar-mais-sinais-de-melhora-para-que-fed-mude-politicas-aponta-ata-do-fomc/",
+    urlToImage:
+      "https://www.infomoney.com.br/wp-content/uploads/2019/06/federal-reserve-.jpg?fit=900%2C445&quality=70&strip=all",
+    publishedAt: "2021-04-07T18:24:13Z",
+    content:
+      "SÃO PAULO – Os dirigentes do Federal Reserve indicaram na última reunião do Fomc que o ritmo de compras de ativos não deve sofrer mudança tão cedo, enquanto o banco central busca atingir suas metas e… [+1835 chars]",
+  },
+  {
+    source: { id: null, name: "Uol.com.br" },
+    author: "UOL",
+    title:
+      "UFMG identifica mutação de possível nova variante do coronavírus em BH - UOL",
+    description:
+      "Uma possível nova variante do novo coronavírus foi identificada em Belo Horizonte e na região metropolitana da capital mineira. O alerta foi feito por pesquisadores do laboratório do Instituto de Ciências Biológicas da UFMG (Universidade Federal de Minas",
+    url:
+      "https://www.uol.com.br/vivabem/noticias/redacao/2021/04/07/ufmg-e-grupo-pardini-alertam-para-possivel-variante-do-coronavirus-em-bh.htm",
+    urlToImage:
+      "https://conteudo.imguol.com.br/c/noticias/93/2021/04/02/as-variantes-do-coronavirus-mais-preocupantes-trazem-mutacoes-na-proteina-da-espicula-a-estrutura-vermelha-da-ilustracao-que-se-liga-aos-receptores-das-nossas-celulas-azul-e-dao-inicio-a-infeccao-1617362427611_v2_615x300.jpg",
+    publishedAt: "2021-04-07T18:20:58Z",
+    content:
+      "Uma possível nova variante do novo coronavírus foi identificada em Belo Horizonte e na região metropolitana da capital mineira. O alerta foi feito por pesquisadores do laboratório do Instituto de Ciê… [+1905 chars]",
   },
   {
     source: { id: "globo", name: "Globo" },
     author: null,
     title:
-      "Astrônomos capturam a primeira imagem nítida de campo magnético em buraco negro - G1",
-    description: "Buraco negro M87 começa a revelar seus segredos.",
+      "Imposto de Renda 2021: prorrogação do prazo depende de aprovação; data limite ainda é 30 de abril - G1",
+    description:
+      "Senado modificou projeto aprovado pela Câmara, que agora terá de fazer nova análise antes de enviar para sanção presidencial.",
     url:
-      "https://g1.globo.com/ciencia-e-saude/noticia/2021/03/25/astronomos-capturam-a-primeira-imagem-nitida-de-campo-magnetico-em-buraco-negro.ghtml",
+      "https://g1.globo.com/economia/noticia/2021/04/07/imposto-de-renda-2021-prorrogacao-do-prazo-depende-de-aprovacao-data-limite-ainda-e-30-de-abril.ghtml",
     urlToImage:
-      "https://s2.glbimg.com/VL9ArBiVkyELbwg1h0KR0K_Gur0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/5/H/Hb1h28Q2CDL9ymeADVmQ/buraco.jpg",
-    publishedAt: "2021-03-25T04:20:50Z",
+      "https://s2.glbimg.com/QasmWuoLKut7p4andDSokn-OgeE=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/9410422.jpg",
+    publishedAt: "2021-04-07T17:18:34Z",
     content:
-      "Os astrônomos que revelaram o primeiro buraco negro aos olhos do mundo conseguiram capturar a imagem do campo magnético perto de sua borda, um grande passo para melhor compreender esses misteriosos m… [+3792 chars]",
+      "A Câmara dos Deputados voltará a analisar o projeto aprovado nesta terça-feira (6) que prevê a prorrogação do prazo de entrega da Declaração do Imposto de Renda 2021 para o dia 31 de julho. Enquanto … [+3452 chars]",
+  },
+  {
+    source: { id: null, name: "Cnnbrasil.com.br" },
+    author: "Caio Carvalho, colaboração para o CNN Brasil Business",
+    title:
+      "Chinesa lança Realme 7 5G, celular compatível com redes 5G mais barato do Brasil - CNN Brasil",
+    description:
+      "O dispositivo chegou às lojas brasileiras nesta terça-feira (6) pelo valor promocional de R$ 1.899",
+    url:
+      "https://www.cnnbrasil.com.br/business/2021/04/07/chinesa-lanca-realme-7-5g-celular-compativel-com-redes-5g-mais-barato-do-brasil",
+    urlToImage:
+      "https://mediastorage.cnnbrasil.com.br/IMAGES/00/00/03/32067_16B94B1E1245E5F7.jpg",
+    publishedAt: "2021-04-07T16:18:00Z",
+    content:
+      "A fabricante chinesa Realme segue o calendário de lançamentos de novos produtos no Brasil. Depois do Realme 7 e 7 Pro, do relógio Watch S e dos fones de ouvido Buds Q, agora é a vez da companhia apos… [+2321 chars]",
+  },
+  {
+    source: { id: "info-money", name: "InfoMoney" },
+    author: null,
+    title:
+      "Leilão de aeroportos tem ágio que passa de 9.000% e rende R$ 3,3 bilhões ao governo - InfoMoney",
+    description:
+      "Os vencedores terão de investir R$ 6,1 bilhões ao longo dos 30 anos de investimentos.",
+    url:
+      "https://www.infomoney.com.br/economia/leilao-de-aeroportos-tem-agio-que-passa-de-9-000-e-rende-r-33-bilhoes-ao-governo/",
+    urlToImage:
+      "https://www.infomoney.com.br/wp-content/uploads/2020/04/GettyImages-1189464400.jpg?fit=2121%2C1414&quality=70&strip=all",
+    publishedAt: "2021-04-07T16:15:00Z",
+    content:
+      "© 2000-2021 InfoMoney. Todos os direitos reservados.\r\nO InfoMoney preza a qualidade da informação e atesta a apuração de todo o conteúdo produzido por sua equipe, ressaltando, no entanto, que não faz… [+1194 chars]",
+  },
+  {
+    source: { id: null, name: "Uol.com.br" },
+    author: "UOL",
+    title:
+      "Namorado aguarda saída de João para decidir possível queixa contra Rodolffo - UOL",
+    description:
+      'O namorado de João Luiz, Igor Moreira, afirmou hoje ao UOL que vai aguardar a saída de seu companheiro do "BBB 21" para decidir se será contratada uma equipe jurídica para tratar as falas de cunho racista de Rodolffo contra o brother no reality show.A Pol',
+    url:
+      "https://tvefamosos.uol.com.br/noticias/redacao/2021/04/07/namorado-aguarda-saida-de-joao-para-decidir-possivel-queixa-contra-rodolffo.htm",
+    urlToImage:
+      "https://conteudo.imguol.com.br/c/entretenimento/c6/2021/04/07/bbb-21-rodolffo-explicou-que-nao-quis-machucar-joao-por-comentario-sobre-cabelo-1617772398177_v2_615x300.jpg",
+    publishedAt: "2021-04-07T16:14:45Z",
+    content:
+      'O namorado de João Luiz, Igor Moreira, afirmou hoje ao UOL que vai aguardar a saída de seu companheiro do "BBB 21" para decidir se será contratada uma equipe jurídica para tratar as falas de cunho ra… [+2353 chars]',
   },
   {
     source: { id: "globo", name: "Globo" },
     author: null,
     title:
-      "Pacheco manda polícia legislativa apurar gesto de assessor do Planalto em sessão do Senado - G1",
+      "Ex-zagueiro do Fluminense, Marcio Baby morre depois de ser baleado no Rio - globoesporte.com",
     description:
-      "Filipe Martins, assessor especial da Presidência, fez gesto interpretado como obsceno por senador. Por meio de uma rede social, ele disse que estava somente ajeitando a lapela do terno.",
+      "Internado desde terça, ex-jogador de 48 anos teve piora nesta quarta e faleceu. Clube lamenta morte do jogador que vestiu a camisa tricolor entre 1992 e 1994",
     url:
-      "https://g1.globo.com/politica/noticia/2021/03/24/pacheco-manda-policia-legislativa-apurar-gesto-de-assessor-do-planalto-em-sessao-do-senado.ghtml",
+      "https://globoesporte.globo.com/futebol/times/fluminense/noticia/ex-zagueiro-do-fluminense-marcio-baby-morre-depois-de-ser-baleado-no-rio.ghtml",
     urlToImage:
-      "https://s2.glbimg.com/yR5BIaZTfPetnJsYULzG1-JAWEc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/t/c/b0ho7UT5GCTykRvk2aMA/filipe-martins.jpg",
-    publishedAt: "2021-03-25T02:19:00Z",
+      "https://s2.glbimg.com/OxhHtXegdQi4oYGrqfM8LJxIKqk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/k/4/hQXZz1RXKb4LvhJy9JOg/whatsapp-image-2021-04-07-at-11.00.05.jpeg",
+    publishedAt: "2021-04-07T16:13:16Z",
     content:
-      "O presidente do Senado, Rodrigo Pacheco (DEM-MG), determinou nesta quarta-feira (24) a apuração de um gesto feito pelo assessor especial para Assuntos Internacionais da Presidência da República, Fili… [+3842 chars]",
+      "Morreu nesta quarta-feira aos 48 anos Márcio Roberto dos Santos Ribeiro, o Márcio Baby, ex-jogador do Fluminense. Ele foi baleado numa tentativa de assalto na última terça na Penha, bairro da Zona No… [+1067 chars]",
+  },
+  {
+    source: { id: null, name: "Tudocelular.com" },
+    author: "TudoCelular.com",
+    title:
+      "Samsung lança Galaxy A32, A52, A52 5G e A72 no Brasil; veja os preços - Tudocelular.com",
+    description:
+      "O quarteto chega com o destaque de contarem com recursos antes presentes apenas em famílias tops de linha de smartphones, em áreas como design, tela e câmera.",
+    url:
+      "https://www.tudocelular.com/samsung/noticias/n172952/samsung-galaxy-a32-a52-a52-5g-e-a72-brasil.html",
+    urlToImage: "https://t2.tudocdn.net/564856?w=1200",
+    publishedAt: "2021-04-07T15:39:25Z",
+    content:
+      "Na manhã desta quarta-feira (7), a Samsung apresentou no país quatro novos modelos da sua linha Galaxy A, em evento online. Os celulares que chegam ao Brasil são estes: A32, A52, A52 5G e A72.\r\nO qua… [+6299 chars]",
+  },
+  {
+    source: { id: null, name: "Cnnbrasil.com.br" },
+    author: "Camila Neumam, da CNN em São Paulo",
+    title:
+      "Vacina contra Covid-19 x vacina contra a gripe: o que você precisa saber - CNN Brasil",
+    description:
+      "Especialistas explicam quando os dois imunizantes podem ser tomados juntos e qual deles priorizar de acordo com o público-alvo",
+    url:
+      "https://www.cnnbrasil.com.br/saude/2021/04/07/vacina-contra-covid-19-x-vacina-contra-a-gripe-o-que-voce-precisa-saber",
+    urlToImage:
+      "https://mediastorage.cnnbrasil.com.br/IMAGES/00/00/03/32059_3BF75176295C9724.jpg",
+    publishedAt: "2021-04-07T15:30:00Z",
+    content:
+      "A partir de 12 de abril, o Sistema Único de Saúde (SUS) inicia sua 23ª campanha de vacinação contra a gripe comum, ao mesmo tempo em que promove a vacinação em massa contra a Covid-19 em todo o país.… [+5017 chars]",
+  },
+  {
+    source: { id: null, name: "Uol.com.br" },
+    author: "UOL",
+    title:
+      "Rodolffo descobre quem é o fofoqueiro da casa e elege vilão: 'Já saiu' - UOL",
+    description:
+      'Eliminado ontem do "BBB 21" com 50,46% dos votos, Rodolffo descobriu na manhã desta quarta-feira (7) durante quem é a pessoa "mais fofoqueira" da casa do reality show.Foi Ana Maria Braga quem deu a notícia para o cantor. Durante o café da manhã com o elim',
+    url:
+      "https://tvefamosos.uol.com.br/noticias/redacao/2021/04/07/bbb-21-rodolffo-fofoca-caio-ana-maria-braga.htm",
+    urlToImage:
+      "https://conteudo.imguol.com.br/c/entretenimento/ad/2021/04/07/bbb-21-rodolffo-fala-sobre-eliminacao-com-ana-maria-braga-1617798827877_v2_615x300.jpg",
+    publishedAt: "2021-04-07T15:29:35Z",
+    content:
+      'Eliminado ontem do "BBB 21" com 50,46% dos votos, Rodolffo descobriu na manhã desta quarta-feira (7) durante quem é a pessoa "mais fofoqueira" da casa do reality show.\r\nFoi Ana Maria Braga quem deu a… [+1040 chars]',
   },
   {
     source: { id: "globo", name: "Globo" },
     author: null,
     title:
-      "Coreia do Norte faz novos disparos no Mar do Japão, dizem militares sul-coreanos - G1",
+      "Presidente turco se reúne com dois líderes da União Europeia e deixa a presidente da Comissão sem cadeira; veja vídeo - G1",
     description:
-      "Representantes do governo dos EUA já haviam avisado sobre outros testes com mísseis no fim de semana, mas ação não gerou alarmes da comunidade internacional.",
+      "Ursula Von der Leyen, presidente da Comissão Europeia, e Charles Michel, do Conselho Europeu, encontraram-se com Tayyip Erdogan na Turquia. Só havia cadeira para os dois homens, e a mulher se sentou em um sofá no cômodo.",
     url:
-      "https://g1.globo.com/mundo/noticia/2021/03/24/coreia-do-norte-faz-novos-disparos-no-mar-do-japao-dizem-militares-sul-coreanos.ghtml",
+      "https://g1.globo.com/mundo/noticia/2021/04/07/presidente-turco-se-reune-com-dois-lideres-da-uniao-europeia-e-deixa-a-presidente-da-comissao-sem-cadeira-veja-video.ghtml",
     urlToImage:
-      "https://s2.glbimg.com/saAffN7rtqTrkujb1U8bAcczSek=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/v/k/ypALfPR7mtFTAPMeoIQw/2021-01-14t225621z-958693670-rc2y7l9retpa-rtrmadp-3-northkorea-politics.jpg",
-    publishedAt: "2021-03-25T00:56:00Z",
+      "https://s2.glbimg.com/a2H9PMa7IDxKTyFkkHPe5_-T7iw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/o/C/I47DIIStOrIiZWrBIJbQ/2021-04-06t113752z-1436597547-rc2bqm9y4er1-rtrmadp-3-turkey-eu.jpg",
+    publishedAt: "2021-04-07T15:07:13Z",
     content:
-      "A Coreia do Norte disparou um projétil no mar nesta quinta-feira (25) (horário local), informaram militares da Coreia do Sul. No momento, não foram dados mais detalhes sobre o tipo de artefato ou a q… [+2197 chars]",
+      "Um vídeo do encontro mostra que a líder do Executivo da União Europeia, a única mulher no diálogo, gesticula e mostra estar surpresa ao ver que só os dois homens tinham cadeiras reservadas a eles no … [+1927 chars]",
   },
   {
     source: { id: "globo", name: "Globo" },
     author: null,
     title:
-      "Decreto de Castro proíbe abertura de praias em todo o estado do Rio durante feriadão de dez dias - Extra",
+      "Compra de vacina por empresas: projeto de lei na Câmara enfraquece Anvisa e SUS, dizem especialistas - G1",
     description:
-      "O governo estadual publicou, na noite desta quarta-feira, no Diário Oficial, o decreto que estipula um feriadão de dez dias, entre 26 de março e 4 de abril,...",
+      "Mesmo com a obrigatoriedade de doar metade das doses compradas para o governo, especialistas ressaltam que empresários poderão comprar vacinas sem registro no Brasil e, por isso, elas não poderão ser utilizadas no SUS.",
     url:
-      "https://extra.globo.com/noticias/rio/decreto-de-castro-proibe-abertura-de-praias-em-todo-estado-do-rio-durante-feriadao-de-dez-dias-24940139.html",
+      "https://g1.globo.com/bemestar/vacina/noticia/2021/04/07/nova-lei-de-compra-de-vacina-pela-iniciativa-privada-enfraquece-anvisa-e-e-inutil-a-vacinacao-nacional-dizem-especialistas.ghtml",
     urlToImage:
-      "https://extra.globo.com/incoming/24939366-634-ffe/w976h550-PROP/92158238_pa-brasilia-bsb-24-03-2021-claudio-castro-governador-do-rio-de-janeiro-durante-entrevis.jpg",
-    publishedAt: "2021-03-25T00:23:00Z",
+      "https://s2.glbimg.com/KnU82JE7gfbHe-FHOdtt58nd5UM=/1200x/smart/filters:cover():strip_icc()/s04.video.glbimg.com/x720/9417807.jpg",
+    publishedAt: "2021-04-07T15:05:00Z",
     content:
-      "O governo estadual publicou, na noite desta quarta-feira, no Diário Oficial, o decreto que estipula um feriadão de dez dias, entre 26 de março e 4 de abril, para conter o avanço da Covid-19 no Rio. O… [+3510 chars]",
+      "A Câmara dos Deputados aprovou o texto-base do PL 948/21 na terça-feira (6) e concluiu a análise nesta quarta-feira (7). O projeto, agora, seguirá para o Senado e, depois de aprovado, precisará de sa… [+8220 chars]",
+  },
+  {
+    source: { id: "globo", name: "Globo" },
+    author: null,
+    title:
+      "Novo diretor-geral da PF planeja mudar responsável por combate à corrupção - G1",
+    description:
+      "Paulo Maiurino deve escolher delegado Luis Flavio Zampronha para ocupar o comando da Diretoria de Investigação e Combate ao Crime Organizado da Polícia Federal.",
+    url:
+      "https://g1.globo.com/politica/noticia/2021/04/07/novo-diretor-geral-da-policia-federal-planeja-mudar-responsavel-pelo-combate-a-corrupcao.ghtml",
+    urlToImage:
+      "https://s2.glbimg.com/wnDYB4NcV6fq1Uca4bGXugUXh9c=/1200x/smart/filters:cover():strip_icc()/s04.video.glbimg.com/x720/9417499.jpg",
+    publishedAt: "2021-04-07T15:02:33Z",
+    content:
+      "O novo diretor-geral da Polícia Federal (PF), Paulo Maiurino, planeja trocar o comando da Diretoria de Investigação e Combate ao Crime Organizado, a mais importante na hierarquia da PF. Segundo fonte… [+2041 chars]",
+  },
+  {
+    source: { id: "globo", name: "Globo" },
+    author: null,
+    title:
+      "Após raros casos de coágulos, agência europeia mantém recomendação para vacina de Oxford - G1",
+    description:
+      "EMA diz que benefícios superam os riscos e que casos de coágulos sanguíneos em pessoas vacinadas com imunizante contra a Covid-19 são um efeito colateral 'muito raro'. Em porcentagem, os casos equivalem a 0,0003% do total de vacinados.",
+    url:
+      "https://g1.globo.com/mundo/noticia/2021/04/07/apos-raros-casos-de-coagulos-agencia-europeia-mantem-recomendacao-para-vacina-de-oxford.ghtml",
+    urlToImage:
+      "https://s2.glbimg.com/zCu3N4qesoU12hUKIK2RmtHw2MA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/a/E/MA33ieRv2wDM3mt272yg/50901968433-11d91a7f34-k.jpg",
+    publishedAt: "2021-04-07T15:00:17Z",
+    content:
+      "A Agência Europeia de Medicamentos (EMA) afirmou nesta quarta-feira (7) que os coágulos sanguíneos sofridos por algumas pessoas vacinadas com a vacina de Oxford/AstraZeneca contra a Covid-19 devem se… [+4493 chars]",
+  },
+  {
+    source: { id: "globo", name: "Globo" },
+    author: null,
+    title:
+      "MG tem recorde de mortes por Covid registradas em 24 horas, com mais de 500 óbitos em um dia - G1",
+    description:
+      "Ao todo, estado já teve 1.182.847 casos confirmados da doença desde o início da pandemia. Foram 13.358 novos registros de infectados por Covid-19 só nas últimas 24 horas.",
+    url:
+      "https://g1.globo.com/mg/minas-gerais/noticia/2021/04/07/mg-tem-recorde-de-mortes-por-covid-registradas-em-24-horas-com-mais-de-500-obitos-em-um-dia.ghtml",
+    urlToImage:
+      "https://s2.glbimg.com/9KoS3eZbgT5wH2jELAQ1PHu_NzI=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/9415018.jpg",
+    publishedAt: "2021-04-07T13:29:39Z",
+    content:
+      "Apenas cinco dias desde o último recorde, Minas Gerais chegou mais uma vez, nesta quarta-feira (7), ao número mais alto de vítimas da Covid-19 registradas em apenas 24 horas. Desde a véspera, foram n… [+3690 chars]",
   },
 ];
 
@@ -887,291 +889,290 @@ export const ex_res_entertainment = [
 
 export const ex_res_health = [
   {
-    source: { id: "google-news", name: "Google News" },
-    author: null,
+    source: { id: null, name: "Folhavitoria.com.br" },
+    author: "Folha Vitória",
     title:
-      "Pneumologista explica a forma de contágio e os sintomas da tuberculose - Paraíba Online",
-    description: null,
-    url:
-      "https://news.google.com/__i/rss/rd/articles/CBMibGh0dHBzOi8vcGFyYWliYW9ubGluZS5jb20uYnIvMjAyMS8wMy9wbmV1bW9sb2dpc3RhLWV4cGxpY2EtYS1mb3JtYS1kZS1jb250YWdpby1lLW9zLXNpbnRvbWFzLWRhLXR1YmVyY3Vsb3NlL9IBAA?oc=5",
-    urlToImage: null,
-    publishedAt: "2021-03-25T13:06:00Z",
-    content: null,
-  },
-  {
-    source: { id: null, name: "Tribunadepetropolis.com.br" },
-    author: null,
-    title:
-      "Após determinação do ministério, vacinação para profissionais de saúde é ampliada | Tribuna de Petrópolis - Tribuna de Petrópolis",
+      "Queda de cabelo atinge 30% dos contaminados pela covid-19. Veja como tratar - Folha Vitória",
     description:
-      "25/mar 09:04 Por Redação / Tribuna de Petrópolis print insert_link Compartilhar:  image/svg+xml   image/svg+xml   image/svg+xml   image/svg+xml  Por determinação do Ministério da Saúde, a vacinação contra a covid-19 para os profissionais da área de…",
+      "Apesar de comum nos casos de covid-19, também é observada em doenças como Zika e Chikungunya. O organismo reage ao vírus e acaba influenciando no ciclo capilar",
     url:
-      "https://tribunadepetropolis.com.br/noticias/apos-determinacao-do-ministerio-vacinacao-para-profissionais-de-saude-e-ampliada/",
+      "https://www.folhavitoria.com.br/saude/noticia/04/2021/queda-de-cabelo-atinge-30-dos-contaminados-pela-covid-19-veja-como-tratar",
     urlToImage:
-      "https://arquivos.tribunadepetropolis.com.br/media/2020/03/09032609/133b99e472e54fe5c9ada6925f2b8956.jpg",
-    publishedAt: "2021-03-25T12:07:34Z",
+      "https://assets.folhavitoria.com.br/images/6a0ad830-a12b-0138-4253-0a58a9feac2a--minified.jpg",
+    publishedAt: "2021-04-07T18:24:50Z",
     content:
-      "Por determinação do Ministério da Saúde, a vacinação contra a covid-19 para os profissionais da área de saúde que ainda não foram imunizados e trabalham em hospitais, clínicas, ambulatórios, consultó… [+2431 chars]",
+      "Foto: DivulgaçãoQueda de cabelo é uma das sequelas da covid-19 \r\nEstamos há mais de um ano convivendo com a covid-19, e além de incorporar à rotina as recomendações de higiene como lavar as mãos com … [+4372 chars]",
   },
   {
-    source: { id: null, name: "Uol.com.br" },
+    source: { id: null, name: "Terra.com.br" },
     author: null,
     title:
-      "Com aumento da Covid, procura de médicos pelo serviço de psicologia do Hospital das Clínicas de Porto Alegre quadruplica - Folha de S.Paulo",
+      "5 exercícios que vão eliminar todas as gordurinhas do corpo - Terra",
     description:
-      "Unidade teve de expandir seu setor de atendimento à saúde mental para dar conta de demanda extra",
+      "Temos uma série de 5 exercícios poderosos que você pode fazer dentro de casa e alcançar resultados incríveis para eliminar os quilos extras",
     url:
-      "https://www1.folha.uol.com.br/equilibrioesaude/2021/03/com-aumento-da-covid-procura-de-medicos-pelo-servico-de-psicologia-do-hospital-das-clinicas-de-porto-alegre-quadruplica.shtml",
+      "https://www.terra.com.br/vida-e-estilo/saude/bem-estar/5-exercicios-que-vao-eliminar-todas-as-gordurinhas-do-corpo,2d251cdf015520c7b89733ee1ee0a2033k891jlq.html",
     urlToImage:
-      "https://f.i.uol.com.br/fotografia/2021/03/24/1616607166605b77be21c0e_1616607166_3x2_md.jpg",
-    publishedAt: "2021-03-25T11:00:00Z",
+      "https://p2.trrsf.com/image/fget/cf/1200/628/middle/images.terra.com/2021/04/07/795009934-corrida.jpg",
+    publishedAt: "2021-04-07T16:44:00Z",
     content:
-      "A procura pelo serviço de atendimento psicológico no Hospital de Clínicas de Porto Alegre (HCPA), referência no tratamento da Covid-19 na cidade, por parte de seus funcionários quadruplicou durante a… [+3937 chars]",
-  },
-  {
-    source: { id: null, name: "Correiobraziliense.com.br" },
-    author: "Samara Schwingel, Jéssica Moura",
-    title:
-      "Pacientes e equipes de saúde vivem drama com superlotação de hospitais no DF - Correio Braziliense",
-    description:
-      "Taxa de transmissão a 0,99, mais de 1 mil novos casos e 50 mortes registradas em 24 horas. Relatos de quem vivencia a realidade do sistema de saúde destacam a crise sanitária provocada pelo novo coronavírus e a necessidade de se proteger",
-    url:
-      "https://www.correiobraziliense.com.br/cidades-df/2021/03/4913912-pacientes-e-equipes-de-saude-vivem-drama-com-superlotacao-de-hospitais-no-df.html",
-    urlToImage:
-      "https://midias.correiobraziliense.com.br/_midias/jpg/2021/03/19/675x450/1_pri_2003_0501_l_26_cor-6575388.jpg",
-    publishedAt: "2021-03-25T09:00:00Z",
-    content:
-      "Mais de 333 mil pessoas foram infectadas e 5.553 morreram pela covid-19, no Distrito Federal, desde o início da pandemia. A taxa de transmissão do vírus é de 0,99, e a capital do país atingiu um novo… [+6013 chars]",
-  },
-  {
-    source: { id: null, name: "Folhape.com.br" },
-    author: null,
-    title:
-      "Clínica multidisciplinar é alternativa de atendimento com qualidade e preço justo - Folha de Pernambuco ",
-    description:
-      "Um dos grandes desafios para as gestões municipais, a saúde pública brasileira enfrenta gargalos que precisam ser vencidos, como a demora nos atendimentos. O Sistema Único de Saúde (SUS) tem uma demanda alta de pacientes e isso faz com que a população pre",
-    url:
-      "https://www.folhape.com.br/colunistas/inspiracao-saude/clinica-multidisciplinar-e-alternativa-de-atendimento-com-qualidade-e-preco-justo/23927/",
-    urlToImage:
-      "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2021/03/ins.jpg",
-    publishedAt: "2021-03-25T09:00:00Z",
-    content:
-      "Um dos grandes desafios para as gestões municipais, a saúde pública brasileira enfrenta gargalos que precisam ser vencidos, como a demora nos atendimentos. O Sistema Único de Saúde (SUS) tem uma dema… [+3142 chars]",
-  },
-  {
-    source: { id: null, name: "Istoe.com.br" },
-    author: null,
-    title:
-      "Queiroga escolhe médico anticloroquina para ajudar a fazer protocolo de Covid-19 - MSN",
-    description:
-      "Queiroga escolhe médico anticloroquina para ajudar a fazer protocolo de Covid-19",
-    url:
-      "https://istoe.com.br/queiroga-escolhe-medico-anticloroquina-para-ajudar-a-fazer-protocolo-de-covid-19/",
-    urlToImage:
-      "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1eWGd2.img?h=315&w=600&m=6&q=60&o=t&l=f&f=jpg&x=59&y=281",
-    publishedAt: "2021-03-25T08:52:06Z",
-    content:
-      "O novo ministro da Saúde, Marcelo Queiroga, anunciou nesta quarta-feira (24), durante entrevista coletiva, o professor da USP e diretor da Divisão de Pneumologia do InCor (Instituto do Coração), o dr… [+1312 chars]",
-  },
-  {
-    source: { id: "globo", name: "Globo" },
-    author: null,
-    title:
-      "Saúde suplementar mostra recuperação modesta em 2020 - Valor Econômico",
-    description:
-      "Planos de assistência médica, os maiores do segmento, registram acréscimo de 554,6 mil pessoas",
-    url:
-      "https://valor.globo.com/publicacoes/suplementos/noticia/2021/03/25/saude-suplementar-mostra-recuperacao-modesta-em-2020.ghtml",
-    urlToImage:
-      "https://s2.glbimg.com/zwlKacGUWaSI8XKcs_gLUsFLMWE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/W/B/2tCBqASPKBLtBzyYPW6g/foto25rel-101-saude-f6.jpg",
-    publishedAt: "2021-03-25T08:02:06Z",
-    content:
-      "1 de 1\r\nVera Valente, da FenaSaúde: crescimento reflete a valorização da saúde suplementar ante a crise sanitária Foto: Divulgação \r\nVera Valente, da FenaSaúde: crescimento reflete a valorização da s… [+618 chars]",
-  },
-  {
-    source: { id: "google-news", name: "Google News" },
-    author: null,
-    title:
-      "CFM nega rever aval a cloroquina, mas admite investigar médico que indica kit covid como cura - Saúde Estadão",
-    description: null,
-    url:
-      "https://news.google.com/__i/rss/rd/articles/CBMilAFodHRwczovL3NhdWRlLmVzdGFkYW8uY29tLmJyL25vdGljaWFzL2dlcmFsLGNmbS1uZWdhLXJldmVyLWF2YWwtYS1jbG9yb3F1aW5hLW1hcy1hZG1pdGUtaW52ZXN0aWdhci1tZWRpY28tcXVlLWluZGljYS1raXQtY292aWQtY29tby1jdXJhLDcwMDAzNjU5NjA50gGYAWh0dHBzOi8vc2F1ZGUuZXN0YWRhby5jb20uYnIvbm90aWNpYXMvZ2VyYWwsY2ZtLW5lZ2EtcmV2ZXItYXZhbC1hLWNsb3JvcXVpbmEtbWFzLWFkbWl0ZS1pbnZlc3RpZ2FyLW1lZGljby1xdWUtaW5kaWNhLWtpdC1jb3ZpZC1jb21vLWN1cmEsNzAwMDM2NTk2MDkuYW1w?oc=5",
-    urlToImage: null,
-    publishedAt: "2021-03-25T08:00:00Z",
-    content: null,
+      "Para alcançar o objetivo de eliminar todas as gordurinhas existem várias formas, mas conseguimos otimizar os resultados escolhendo os exercícios certos e combiná-los de tal forma a potencializar aind… [+3026 chars]",
   },
   {
     source: { id: null, name: "Metropoles.com" },
     author: null,
     title:
-      "Para ganhar músculos, eu preciso colocar mais pesos no meu treino? - Metrópoles",
+      "Um em cada 3 curados tem transtorno mental ou neurológico após Covid - Metrópoles",
     description:
-      "Existem estratégias eficientes para conseguir a sonhada hipertrofia muscular",
+      "Pesquisadores de Oxford encontraram o índice após analisarem prontuários de 236 mil pessoas, a maioria delas dos EUA",
     url:
-      "https://www.metropoles.com/colunas/na-medida/para-ganhar-musculos-eu-preciso-colocar-mais-pesos-no-meu-treino",
+      "https://www.metropoles.com/saude/um-em-cada-3-curados-tem-transtorno-mental-ou-neurologico-apos-covid",
     urlToImage:
-      "https://uploads.metropoles.com/wp-content/uploads/2020/01/02150112/GettyImages-11248663143.jpg",
-    publishedAt: "2021-03-25T07:45:00Z",
+      "https://uploads.metropoles.com/wp-content/uploads/2019/06/03165433/GettyImages-722235227.jpg",
+    publishedAt: "2021-04-07T15:46:00Z",
     content:
-      "Embora seja desejo de muita gente, ganhar músculos não é tão simples como se imagina. No entanto, existem estratégias eficientes para conseguir a sonhada hipertrofia muscular.\r\nVeja quatro possibilid… [+1354 chars]",
+      "Uma em cada três pessoas recuperadas da Covid-19 desenvolve algum transtorno neurológico ou psicológico nos seis meses seguintes à infecção provocada pelo novo coronavírus. É o que indica estudo publ… [+1642 chars]",
   },
   {
-    source: { id: null, name: "Agazeta.com.br" },
+    source: { id: null, name: "Engeplus.com.br" },
+    author: "Portal Engeplus",
+    title:
+      "Sindisaúde homenageia profissionais da saúde que morreram de Covid-19 - Engeplus",
+    description:
+      "Seis trabalhadores da região Sul de Santa Catarina morreram em virtude da doença",
+    url:
+      "http://www.engeplus.com.br/noticia/geral/2021/sindisaude-homenageia-profissionais-da-saude-que-morreram-de-covid-19",
+    urlToImage:
+      "http://www.engeplus.com.br/cache/noticia/0160/0160096/sindisaude-homenageia-profissionais-da-saude-que-morreram-de-covid-19.jpg?t=20210407123606",
+    publishedAt: "2021-04-07T15:35:00Z",
+    content:
+      "Há mais de um ano a população brasileira está lutando contra a Covid-19. Um vírus que não escolhe etnia, religião ou sexo. O Brasil registrou 4.211 mortes por Covid-19 nas últimas 24 horas. Desde o i… [+2607 chars]",
+  },
+  {
+    source: { id: "globo", name: "Globo" },
     author: null,
     title:
-      "5 dicas para manter a motivação e praticar exercícios físicos em casa - A Gazeta ES",
+      "Prática de exercícios para hipertensão arterial: orientações - globoesporte.com",
     description:
-      "Manter treinos variados, fazer exercícios pela manhã e comemorar pequenas vitórias ajudam a manter uma rotina saudável e estimulante",
+      "O cardiologista e médico do esporte Nabil Ghorayeb explica o que é considerado pressão alta, normal e normal alta e quais as recomendações de atividade física para cada faixa",
     url:
-      "https://www.agazeta.com.br/revista-ag/vida/5-dicas-para-manter-a-motivacao-e-praticar-exercicios-fisicosem-casa-0321",
+      "https://globoesporte.globo.com/eu-atleta/saude/post/2021/04/07/pratica-de-exercicios-para-hipertensao-arterial-orientacoes.ghtml",
     urlToImage:
-      "https://midias.agazeta.com.br/2021/03/17/600x315/exercicio-fisico-440213.jpg",
-    publishedAt: "2021-03-25T05:00:00Z",
+      "https://s2.glbimg.com/2FHH7fk1nbJPd3wzs0Zi3tR1ocs=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/x/o/A3FuscSoeAdkDvL4oCyw/istock-1300493714.jpg",
+    publishedAt: "2021-04-07T15:27:25Z",
     content:
-      "Fazer exercícios físicos regularmente é um hábito saudável que pode trazer benefícios por toda a vida. Em momentos desafiadores como esse, é importante manter o ritmo de treinamento durante o período… [+3025 chars]",
+      "É de conhecimento geral que a atividade física faz parte do tratamento das doenças crônico-degenerativas cardiovasculares e oncológicas; porém, o melhor exercício e o quanto praticar são discussões e… [+3184 chars]",
   },
   {
-    source: { id: null, name: "Uol.com.br" },
+    source: { id: null, name: "Folhavitoria.com.br" },
+    author: "Folha Vitória",
+    title:
+      "Entenda o que é a pielonefrite, doença que causou a internação da influencer Gabi Brandt - Folha Vitória",
+    description:
+      "Infectologista explica o que é a doença, como é o tratamento e dá algumas dicas para evitá-la",
+    url:
+      "https://www.folhavitoria.com.br/saude/noticia/04/2021/entenda-o-que-e-a-pielonefrite-doenca-que-causou-a-internacao-da-influencer-gabi-brandt",
+    urlToImage:
+      "https://assets.folhavitoria.com.br/images/a99088e0-63af-0137-1225-6231c35b6685--minified.jpg",
+    publishedAt: "2021-04-07T12:27:08Z",
+    content:
+      "Foto: Reprodução\r\nNo último sábado (3), a influencer Gabi Brandt foi internada em uma clínica no Rio de Janeiro para tratamento de um quadro grave de pielonefrite, uma doença inflamatória infecciosa … [+1961 chars]",
+  },
+  {
+    source: { id: null, name: "Douradosnews.com.br" },
+    author: "http://www.dothnews.com.br",
+    title:
+      "A importância do sono para a saúde e o bem estar do corpo - Dourados News",
+    description:
+      '<p>O <a href="http://www.hcdourados.com.br/">Hospital do Cora&ccedil;&atilde;o</a> se preocupa com a qualidade do seu sono, sabemos que para nos sentirmos dispostos e produtivos nada melhor...',
+    url:
+      "https://www.douradosnews.com.br/dourados/a-importancia-do-sono-para-a-saude-e-o-bem-estar-do-corpo/1152156/",
+    urlToImage:
+      "https://cdn.douradosnews.com.br/img/c/1280/960/dn_arquivo/2021/04/dsc-3278.jpg",
+    publishedAt: "2021-04-07T12:15:00Z",
+    content:
+      "O Hospital do Coração se preocupa com a qualidade do seu sono, sabemos que para nos sentirmos dispostos e produtivos nada melhor que uma boa noite de sono em nossa rotina. O sono é extretamente impor… [+3136 chars]",
+  },
+  {
+    source: { id: "globo", name: "Globo" },
     author: null,
     title:
-      "Mercado de plano de saúde pede mudança de prazo em tratamento eletivo na pandemia - Folha de S.Paulo",
+      "Como fazer clean: para que serve o exercício no crossfit - globoesporte.com",
     description:
-      "FenaSaúde diz que aumento de procedimentos eletivos toma espaço da Covid",
+      "Veja vídeo e passo a passo em que treinador ensina a execução perfeita do movimento, e entenda o que é, benefícios e que grupos musculares trabalha",
     url:
-      "https://www1.folha.uol.com.br/colunas/painelsa/2021/03/mercado-de-plano-de-saude-pede-mudanca-de-prazo-em-tratamento-eletivo-na-pandemia.shtml",
+      "https://globoesporte.globo.com/eu-atleta/treinos/noticia/como-fazer-clean-para-que-serve-o-exercicio-no-crossfit.ghtml",
     urlToImage:
-      "https://f.i.uol.com.br/fotografia/2021/03/15/1615847052604fde8c3adf2_1615847052_3x2_rt.jpg",
-    publishedAt: "2021-03-25T02:08:00Z",
+      "https://s2.glbimg.com/yzNXrpsxTBVoYCbRpykT889ss9E=/1200x/smart/filters:cover():strip_icc()/s01.video.glbimg.com/x720/9413424.jpg",
+    publishedAt: "2021-04-07T11:00:40Z",
     content:
-      "Com a piora da pandemia, a FenaSaúde (Federação Nacional de Saúde Suplementar) pediu para a ANS (Agência Nacional de Saúde Suplementar) ampliar o prazo dos tratamentos eletivos na rede privada, medid… [+1077 chars]",
+      "O clean é um dos exercícios mais populares do crossfit e esta fama não é por acaso. O movimento é capaz de trabalhar diversas habilidades físicas e grupos musculares de uma só vez, por isso, é freque… [+4100 chars]",
   },
   {
-    source: { id: null, name: "Bemparana.com.br" },
-    author: "Jornal Bem Paraná",
+    source: { id: null, name: "Imirante.com" },
+    author: "Imirante.com",
     title:
-      "Discurso de tratamento precoce ganha força entre médicos e empresários em Curitiba - Bem Paraná",
-    description:
-      "Num momento de pico da pandemia do novo coronavírus, com explosão no número de casos de Covid-19 e recorde de mortes no Paraná, uma polêmica que dominou grande parte dos noticiários em 2020 voltou...",
+      "Nutricionista dá dicas para turbinar sua imunidade durante a pandemia - Imirante.com",
+    description: "Saiba como melhorar a sua saúde por meio da alimentação.",
     url:
-      "https://www.bemparana.com.br/noticia/com-saude-em-colapso-discursos-a-favor-do-tratamento-precoce-ganham-forca",
+      "https://imirante.com/namira/maranhao/noticias/2021/04/07/nutricionista-da-dicas-para-turbinar-sua-imunidade-durante-a-pandemia.shtml",
     urlToImage:
-      "https://uploads.bemparana.com.br/upload/image/noticia/noticia_133104_img1_a-lot-of-colorful-medicine-pills-tablets-and-capsules.jpg",
-    publishedAt: "2021-03-25T02:00:00Z",
-    content:
-      "Num momento de pico da pandemia do novo coronavírus, com explosão no número de casos de Covid-19 e recorde de mortes no Paraná, uma polêmica que dominou grande parte dos noticiários em 2020 voltou a … [+10292 chars]",
+      "https://img.imirante.com.br/2021/04/06/1617726234-620330332-810x471.jpg",
+    publishedAt: "2021-04-07T11:00:36Z",
+    content: null,
   },
   {
     source: { id: "google-news", name: "Google News" },
     author: null,
-    title:
-      "VACINA PRIVADA: EMPRESÁRIOS QUEREM IMUNIZAÇÃO PARALELA AO SUS | MANDETTA - MyNews",
+    title: "O fantasma do esgotamento mental - Saúde Estadão",
     description: null,
     url:
-      "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9djlFVUl6RjhSUG_SAQA?oc=5",
+      "https://news.google.com/__i/rss/rd/articles/CBMiWGh0dHBzOi8vc2F1ZGUuZXN0YWRhby5jb20uYnIvbm90aWNpYXMvZ2VyYWwsby1mYW50YXNtYS1kby1lc2dvdGFtZW50by1tZW50YWwsNzAwMDM2NzI0NjfSAVxodHRwczovL3NhdWRlLmVzdGFkYW8uY29tLmJyL25vdGljaWFzL2dlcmFsLG8tZmFudGFzbWEtZG8tZXNnb3RhbWVudG8tbWVudGFsLDcwMDAzNjcyNDY3LmFtcA?oc=5",
     urlToImage: null,
-    publishedAt: "2021-03-25T00:45:00Z",
+    publishedAt: "2021-04-07T11:00:00Z",
     content: null,
   },
   {
-    source: { id: null, name: "Guiamuriae.com.br" },
+    source: { id: "info-money", name: "InfoMoney" },
     author: null,
     title:
-      "Muriaé registra mais uma morte por covid e 41 novos casos da doença; UTIs seguem lotadas - Guia Muriaé",
+      "Petrobras rechaça acusações sobre novo plano de saúde dos empregados - InfoMoney",
     description:
-      "A situação da covid-19 em Muriaé segue em estágio crítico. Mais uma uma morte ocorrida na cidade teve a doença como causa confirmada – desta vez, o óbito registrado foi de um homem de 59 anos, que também sofria de hipertensão. Nos hospitais, os leitos de UTI …",
+      'Segundo a estatal, a transição da operação do plano de saúde AMS para a APS "foi realizada seguindo todas as normas de governança da companhia"',
     url:
-      "https://www.guiamuriae.com.br/noticias/saude/muriae-registra-mais-uma-morte-por-covid-e-41-novos-casos-da-doenca-utis-seguem-lotadas/",
+      "https://www.infomoney.com.br/mercados/petrobras-rechaca-acusacoes-sobre-novo-plano-de-saude-dos-empregados/",
     urlToImage:
-      "https://www.guiamuriae.com.br/wp-content/uploads/2020/02/Coronavirus-Foto-Warley-de-Andrade-TV-Brasil.jpg",
-    publishedAt: "2021-03-25T00:12:23Z",
+      "https://www.infomoney.com.br/wp-content/uploads/2020/07/GettyImages-521159906.jpg?fit=1024%2C652&quality=70&strip=all",
+    publishedAt: "2021-04-07T10:59:00Z",
     content:
-      "A situação da covid-19 em Muriaé segue em estágio crítico. Mais uma uma morte ocorrida na cidade teve a doença como causa confirmada – desta vez, o óbito registrado foi de um homem de 59 anos, que ta… [+1087 chars]",
+      "Petrobras (Foto: Mario Tama/Getty Images) \r\nA Petrobras (PETR3; PETR4) enviou na terça-feira, 6, comunicado à Comissão de Valores Mobiliários (CVM) rechaçando acusações sobre possíveis irregularidade… [+1576 chars]",
   },
   {
-    source: { id: null, name: "Reporterdiario.com.br" },
-    author: "Amanda Lemos",
+    source: { id: null, name: "Olhardigital.com.br" },
+    author: "Olhar Digital",
     title:
-      "Psiquiatra orienta como manter a saúde mental durante a pandemia - Repórter Diário",
+      "Médicos alertam que consumo de fast food pode causar doenças neurológicas - Olhar Digital",
     description:
-      "A pandemia do novo coronavírus (covid-19) acentuou ainda mais a relação com o meio virtual, seja para trabalho, estudo, consumo de informações ou entretenimento. Acontece que o acesso leva as pessoas a ficarem praticamente o dia todo conectadas, o que de acor…",
+      "Um estudo conduzido por médicos da Universidade do Sul da California relacionou o consumo de fast food com o risco de doenças neurológicas.",
     url:
-      "https://www.reporterdiario.com.br/noticia/2940315/psiquiatra-orienta-como-manter-a-saude-mental-durante-a-pandemia/",
+      "https://olhardigital.com.br/2021/04/07/medicina-e-saude/alto-consumo-de-fast-foodpode-causar-doencas-neorologicas/",
     urlToImage:
-      "https://www.reporterdiario.com.br/wp-content/uploads/2021/03/psiquiatra.png",
-    publishedAt: "2021-03-24T23:54:02Z",
+      "https://img.olhardigital.com.br/wp-content/uploads/2021/04/Junk-Food.jpg",
+    publishedAt: "2021-04-07T10:44:05Z",
     content:
-      "A pandemia do novo coronavírus (covid-19) acentuou ainda mais a relação com o meio virtual, seja para trabalho, estudo, consumo de informações ou entretenimento. Acontece que o acesso leva as pessoas… [+2235 chars]",
+      "Às vezes parece que tudo que é bom, faz mal e, conforme pesquisas são feitas em relação aos efeitos de longo prazo de alguns alimentos, essa impressão só aumenta. Um novo estudo conduzido por médicos… [+2207 chars]",
   },
   {
-    source: { id: null, name: "Uol.com.br" },
+    source: { id: null, name: "Noticiasconcursos.com.br" },
+    author: "Camila Silva",
+    title:
+      "Benefícios da atividade física para os estudos - Notícias Concursos",
+    description:
+      "Os benefícios da atividade física para os estudos são inúmeros e se envolvem até mesmo com o humor e a motivação para",
+    url:
+      "https://noticiasconcursos.com.br/saude/beneficios-da-atividade-fisica/",
+    urlToImage:
+      "https://noticiasconcursos.com.br/wp-content/uploads/2021/04/noticiasconcursos.com.br-beneficios-da-atividade-fisica-para-os-estudos-beneficios-da-atividade-fisica.jpeg",
+    publishedAt: "2021-04-07T10:35:00Z",
+    content:
+      "Os benefícios da atividade física para os estudos são inúmeros e se envolvem até mesmo com o humor e a motivação para estudar. São estes exercícios que lhe ajudarão a melhorar a sua capacidade de con… [+3495 chars]",
+  },
+  {
+    source: { id: "globo", name: "Globo" },
     author: null,
     title:
-      "Com pacientes de Covid, hospitais privados não se mostram sustentáveis, diz Lottenberg - Folha de S.Paulo",
+      "Dia Mundial da Saúde: a alimentação é a base para equilibrar corpo e mente - Casa e Jardim",
     description:
-      "Setor discute projeto de incentivo fiscal a pessoas e empresas que queiram contratar leitos clínicos e de UTI da rede particular ao SUS",
+      "A escolha de uma alimentação saudável e diversificada pode contribuir para uma imunidade mais alta",
     url:
-      "https://www1.folha.uol.com.br/equilibrioesaude/2021/03/com-pacientes-de-covid-hospitais-privados-nao-se-mostram-sustentaveis-diz-lottenberg.shtml",
+      "https://revistacasaejardim.globo.com/Casa-e-Jardim/Bem-Estar/Saude/noticia/2021/04/dia-mundial-da-saude-alimentacao-e-base-para-equilibrar-corpo-e-mente.html",
     urlToImage:
-      "https://f.i.uol.com.br/fotografia/2019/05/27/15589759835cec15ef124a4_1558975983_3x2_rt.jpg",
-    publishedAt: "2021-03-24T22:37:00Z",
+      "https://s2.glbimg.com/_Tgvw3E3tInQDgrjhKSyoZdLPxE=/512x320/smart/e.glbimg.com/og/ed/f/original/2021/04/06/como-a-alimentacao-e-importante-para-o-equilibrio-do-corpo-3.jpg",
+    publishedAt: "2021-04-07T10:25:32Z",
     content:
-      "À frente de um grupo de lideranças da saúde privada que negocia com deputados federais o aumento da oferta de leitos ao SUS e incentivos ao setor para enfrentar a crise provocada pela pandemia de Cov… [+4674 chars]",
+      "É importante combinar a boa alimentação com boas práticas de saúde e bem-estar (Foto: Unsplash / Brooke Lark / CreativeCommons)\r\nA fim de conscientizar a população sobre a importância de manter o cor… [+3864 chars]",
   },
   {
-    source: { id: null, name: "Cnnbrasil.com.br" },
-    author: "Julia Chatterley e Ramishah Maruf, do CNN Business",
+    source: { id: "globo", name: "Globo" },
+    author: null,
+    title: "Dia Mundial da Saúde: os benefícios do sono - GQ",
+    description:
+      "Boost na imunidade, diminuição da ansiedade e eliminação de toxinas do cérebro são alguns dos pontos positivos de uma noite bem dormida",
+    url:
+      "https://gq.globo.com/Corpo/Saude/noticia/2021/04/beneficios-do-sono.html",
+    urlToImage:
+      "https://s2.glbimg.com/hYzebCRNNpDt5kVtRL60ATaLtHU=/512x320/smart/e.glbimg.com/og/ed/f/original/2021/04/07/gettyimages-1262286874.jpg",
+    publishedAt: "2021-04-07T09:37:29Z",
+    content:
+      "Sono (Foto: Getty Images)\r\nTer uma boa noite de sono é tão importante para a saúde quanto manter uma alimentação saudável e praticar exercícios físicos. Em tempos de pandemia, poucas horas de sono po… [+2657 chars]",
+  },
+  {
+    source: { id: null, name: "R7.com" },
+    author: "R7.com",
     title:
-      "Como o príncipe Harry conseguiu o novo emprego em startup de saúde mental - CNN Brasil",
-    description: "O duque de Sussex será diretor de impacto da BetterUp",
+      "Sedentarismo: saiba o que acontece com o corpo após um ano parado - R7",
+    description:
+      "Exercícios e meia compressoras são indicados para melhorar o bem estar mesmo passando mais tempo dentro de casa",
     url:
-      "https://www.cnnbrasil.com.br/internacional/2021/03/24/como-o-principe-harry-conseguiu-o-novo-emprego-em-startup-de-saude-mental",
+      "http://lifestyle.r7.com/bem-estar/fotos/sedentarismo-saiba-o-que-acontece-com-o-corpo-apos-um-ano-parado-07042021",
     urlToImage:
-      "https://mediastorage.cnnbrasil.com.br/IMAGES/00/00/03/30110_C638F5DF2887CD67.jpg",
-    publishedAt: "2021-03-24T21:12:00Z",
-    content:
-      "O príncipe Harry encontrou um novo emprego: o duque de Sussex juntou-se a uma startup chamada BetterUp, que fornece serviços de saúde mental e treinamento para clientes online. Seu cargo será o de ch… [+3648 chars]",
+      "https://img.r7.com/images/um-ano-de-quarentena-o-saldo-com-poucas-atividades-fisicas-06042021143428095?dimensions=640x426",
+    publishedAt: "2021-04-07T05:00:24Z",
+    content: null,
   },
   {
-    source: { id: null, name: "Hailtonpereira.com" },
+    source: { id: null, name: "Obemdito.com.br" },
     author: null,
     title:
-      "Barreiras: Secretaria de Saúde comunica mais um óbito em decorrência da Covid-19 - Hailton Pereira",
-    description: "",
+      "Três pacientes com Covid-19 de Francisco Alves aguardam vagas para internamento - OBemdito",
+    description:
+      "A Secretaria de Saúde de Francisco Alves divulgou, nesta terça-feira (06), novos dados sobre os casos de coronavírus na cidade. Atualmente há 64 pacientes com o vírus ativo e desses,...",
     url:
-      "https://www.hailtonpereira.com/2021/03/barreiras-secretaria-de-saude-comunica.html",
+      "https://www.obemdito.com.br/saude/tres-pacientes-com-covid-19-de-francisco-alves-aguardam-vagas-para/43871/",
     urlToImage:
-      "https://1.bp.blogspot.com/-uDRkWTmF98c/YFuprzeIkDI/AAAAAAAA1Dc/8b1WAfZ4Uz8GLaUlB7Ow87W9OmOJm6NmgCLcBGAsYHQ/s16000/Logo%2BPMB.jpg",
-    publishedAt: "2021-03-24T21:07:00Z",
-    content:
-      "A Secretaria de Saúde de Barreiras comunica o 119º óbito em decorrência da Covid-19, ocorrido na terça-feira, 23. O paciente que estava internado no Pronto Atendimento Coronavírus, no Hospital Munici… [+810 chars]",
+      "https://cdn.obemdito.com.br/upload/dn_arquivo/2021/04/arquivo.jpeg",
+    publishedAt: "2021-04-06T22:59:00Z",
+    content: null,
   },
   {
-    source: { id: null, name: "Diariopopular.com.br" },
-    author: "WD House",
-    title: "Do primeiro caso ao colapso do sistema de saúde - Diário Popular",
+    source: { id: null, name: "Folhabv.com.br" },
+    author: null,
+    title:
+      "Prefeitura empossa 46 novos profissionais de saúde - Folha de Boa Vista",
     description:
-      "“Ficou um vazio que nunca mais vai preencher”. O desabafo de um pai ao ver o filho de apenas 37 anos ter os sonhos engolidos pela Covid-19 serve de síntese para um medo coletivo que se alastra por milhares de lares em Pelotas.\nEm exatos 365 dias, o município …",
+      "Profissionais vão reforçar principalmente as ações desenvolvidas pela prefeitura nesta pandemia",
     url:
-      "https://www.diariopopular.com.br/geral/do-primeiro-caso-ao-colapso-do-sistema-de-saude-159455/",
-    urlToImage:
-      "https://www.diariopopular.com.br/index.php?type=img&id=MjcyOTYy&thumb=sim&x=600&face=sim&.jpg",
-    publishedAt: "2021-03-24T20:40:09Z",
+      "https://folhabv.com.br/noticia/CIDADES/Capital/Prefeitura-empossa-46-novos-profissionais-de-saude-/74787",
+    urlToImage: "https://ebvadmin.com.br/public/images/noti-1617747092.jpg",
+    publishedAt: "2021-04-06T22:11:00Z",
     content:
-      'No dia em que fecha um ano da pandemia em Pelotas, o DP abre a série e a websérie "Um ano de luto, um ano de luta", com diferentes vozes que passam por trauma, esgotamento, insegurança e superação\r\n … [+9502 chars]',
+      "Como parte dos investimentos para reforçar o quadro da saúde em Boa Vista, o prefeito Arthur Henrique deu posse a 46 novos profissionais da saúde, que prestaram concurso em 2019. A solenidade acontec… [+1446 chars]",
   },
   {
-    source: { id: null, name: "Brasildefato.com.br" },
-    author: "Yanina Stasevskas",
-    title: "Artigo | Saúde mental na pandemia | Opinião - Brasil de Fato",
+    source: { id: "globo", name: "Globo" },
+    author: null,
+    title:
+      "Exercícios de estabilidade ajudam nas tarefas do dia a dia - globoesporte.com",
     description:
-      "Psicanalista avalia impactos mentais da crise sanitária e econômica em um país onde o Estado não cumpre o seu dever",
+      "Veja o vídeo da fisiologista Gerseli Angeli com um treino que pode ser feito em casa, com a ajuda de um elástico (miniband), uma cadeira e alguns livros",
     url:
-      "https://www.brasildefato.com.br/2021/03/24/artigo-saude-mental-na-pandemia",
+      "https://globoesporte.globo.com/eu-atleta/treinos/post/2021/04/06/exercicios-de-estabilidade-para-ajudar-nas-tarefas-do-dia-a-dia.ghtml",
     urlToImage:
-      "https://images02.brasildefato.com.br/d9aef4f3df2bd38b0dc5a9e50f78cc02.jpeg",
-    publishedAt: "2021-03-24T19:48:52Z",
+      "https://s2.glbimg.com/_iwl7iYQdRp9GEJ9yf0oGLzCung=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/9414826.jpg",
+    publishedAt: "2021-04-06T21:25:42Z",
     content:
-      "O que posso comentar que ajude nessa situação que vivemos agora, dessa 2ª onda, desse 2º ano de pandemia mundial?\r\nComeço com algo que parece só descritivo: as pessoas em distanciamento social, que t… [+13140 chars]",
+      "Por que treino de estabilidade unilateral de membros inferiores, como o que ensinamos no vídeo abaixo, é importante? Ao contrário do que muitas pessoas podem pensar, praticar exercícios que treinem e… [+2153 chars]",
+  },
+  {
+    source: { id: "google-news", name: "Google News" },
+    author: null,
+    title: "Brasil já perdeu 5,7 mil profissionais da saúde - Band Jornalismo",
+    description: null,
+    url:
+      "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eHBWR3JkcnJJejjSAQA?oc=5",
+    urlToImage: null,
+    publishedAt: "2021-04-06T20:57:31Z",
+    content: null,
   },
 ];
 
