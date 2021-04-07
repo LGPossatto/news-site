@@ -18,18 +18,18 @@ import NewsDetails from "./pages/news-details/NewsDetails.page";
 import Category from "./pages/category/Category.page";
 
 function App() {
-  const dispatch = useDispatch();
+  /*   const dispatch = useDispatch();
 
   useEffect(() => {
-    //dispatch(getTopNews);
-    //dispatch(getBusinessNews);
-    //dispatch(getEntertainmentsNews);
-    //dispatch(getHealthNews);
-    //dispatch(getScienceNews);
-    //dispatch(getSportsNews);
-    //dispatch(getTechnologyNews);
+    dispatch(getTopNews);
+    dispatch(getBusinessNews);
+    dispatch(getEntertainmentsNews);
+    dispatch(getHealthNews);
+    dispatch(getScienceNews);
+    dispatch(getSportsNews);
+    dispatch(getTechnologyNews);
     // eslint-disable-next-line
-  }, []);
+  }, []); */
 
   return (
     <BrowserRouter>

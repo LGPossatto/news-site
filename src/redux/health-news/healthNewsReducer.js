@@ -1,9 +1,13 @@
 import { GET_HEALTH_HEADLINES } from "../types";
+import { staticNews } from "../../utils/utils";
 import { ex_res_health } from "../../utils/ex_resp";
 
-const inicialState = {
-  healthHeadlines: ex_res_health || null,
-};
+let inicialState = { healthHeadlines: null };
+if (staticNews) {
+  inicialState = {
+    healthHeadlines: ex_res_health,
+  };
+}
 
 const healthNewsReducer = (state = inicialState, action) => {
   switch (action.type) {

@@ -1,9 +1,13 @@
 import { GET_TOP_HEADLINES } from "../types";
+import { staticNews } from "../../utils/utils";
 import { ex_res_general } from "../../utils/ex_resp";
 
-const inicialState = {
-  topHeadlines: ex_res_general || null,
-};
+let inicialState = { topHeadlines: null };
+if (staticNews) {
+  inicialState = {
+    topHeadlines: ex_res_general,
+  };
+}
 
 const topNewsReducer = (state = inicialState, action) => {
   switch (action.type) {

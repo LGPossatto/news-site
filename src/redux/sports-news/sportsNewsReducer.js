@@ -1,9 +1,13 @@
 import { GET_SPORTS_HEADLINES } from "../types";
+import { staticNews } from "../../utils/utils";
 import { ex_res_sports } from "../../utils/ex_resp";
 
-const inicialState = {
-  sportsHeadlines: ex_res_sports || null,
-};
+let inicialState = { sportsHeadlines: null };
+if (staticNews) {
+  inicialState = {
+    sportsHeadlines: ex_res_sports,
+  };
+}
 
 const sportsNewsReducer = (state = inicialState, action) => {
   switch (action.type) {

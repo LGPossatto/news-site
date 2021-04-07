@@ -5,6 +5,9 @@ export const toTitleCase = (str) => {
   });
 };
 
+// use static news
+export const staticNews = true;
+
 // fetch news api data
 export const getData = async (category = "", search = "") => {
   const newsApiKey = process.env.REACT_APP_API_KEY;

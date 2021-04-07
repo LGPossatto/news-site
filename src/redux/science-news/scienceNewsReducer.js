@@ -1,9 +1,13 @@
 import { GET_SCIENCE_HEADLINES } from "../types";
+import { staticNews } from "../../utils/utils";
 import { ex_res_science } from "../../utils/ex_resp";
 
-const inicialState = {
-  scienceHeadlines: ex_res_science || null,
-};
+let inicialState = { scienceHeadlines: null };
+if (staticNews) {
+  inicialState = {
+    scienceHeadlines: ex_res_science,
+  };
+}
 
 const scienceNewsReducer = (state = inicialState, action) => {
   switch (action.type) {

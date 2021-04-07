@@ -1,9 +1,13 @@
 import { GET_BUSINESS_HEADLINES } from "../types";
+import { staticNews } from "../../utils/utils";
 import { ex_res_business } from "../../utils/ex_resp";
 
-const inicialState = {
-  businessHeadlines: ex_res_business || null,
-};
+let inicialState = { businessHeadlines: null };
+if (staticNews) {
+  inicialState = {
+    businessHeadlines: ex_res_business,
+  };
+}
 
 const businessNewsReducer = (state = inicialState, action) => {
   switch (action.type) {
