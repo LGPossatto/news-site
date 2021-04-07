@@ -1,7 +1,7 @@
-import { useContext } from "react";
 import { Link } from "react-router-dom";
 
-import NewsContext from "../../context/news/newsContext";
+import { useSelector } from "react-redux";
+
 import { categoryNames } from "../../utils/utils";
 
 import "./category.style.scss";
@@ -14,18 +14,28 @@ const Category = ({
     params: { category, page },
   },
 }) => {
-  const {
-    topLoading,
-    topHeadlines,
-    categoryLoading,
-    businessHeadlines,
-    entertainmentHeadlines,
-    healthHeadlines,
-    scienceHeadlines,
-    sportsHeadlines,
-    technologyHeadlines,
-    specificHeadlines,
-  } = useContext(NewsContext);
+  const topHeadlines = useSelector((state) => state.topNews.topHeadlines);
+  const businessHeadlines = useSelector(
+    (state) => state.businessNews.businessHeadlines
+  );
+  const entertainmentHeadlines = useSelector(
+    (state) => state.entertainmentNews.entertainmentHeadlines
+  );
+  const healthHeadlines = useSelector(
+    (state) => state.healthNews.healthHeadlines
+  );
+  const scienceHeadlines = useSelector(
+    (state) => state.scienceNews.scienceHeadlines
+  );
+  const sportsHeadlines = useSelector(
+    (state) => state.sportsNews.sportsHeadlines
+  );
+  const technologyHeadlines = useSelector(
+    (state) => state.technologyNews.technologyHeadlines
+  );
+  const specificHeadlines = useSelector(
+    (state) => state.specificNews.specificHeadlines
+  );
 
   const getNews = (newsCategory) => {
     switch (newsCategory) {
@@ -48,10 +58,11 @@ const Category = ({
     }
   };
 
-  if (topLoading || categoryLoading) {
+  let categoryList = getNews(category);
+
+  if (categoryList === null || categoryList === undefined) {
     return <Spinner></Spinner>;
   } else {
-    let categoryList = getNews(category);
     const listLength = categoryList.length;
     let endPage = Math.ceil(listLength / 10);
     let newsList = [];

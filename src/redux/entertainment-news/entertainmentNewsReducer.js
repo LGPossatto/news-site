@@ -1,7 +1,8 @@
 import { GET_ENTERTAINMENT_HEADLINES } from "../types";
+import { ex_res_entertainment } from "../../utils/ex_resp";
 
 const inicialState = {
-  entertainmentHeadlines: null,
+  entertainmentHeadlines: ex_res_entertainment || null,
 };
 
 const entertainmentNewsReducer = (state = inicialState, action) => {

@@ -1,9 +1,11 @@
+// capitalize every first letter
 export const toTitleCase = (str) => {
   return str.replace(/\w\S*/g, function (txt) {
     return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
   });
 };
 
+// fetch news api data
 export const getData = async (category = "", search = "") => {
   const newsApiKey = process.env.REACT_APP_API_KEY;
 
@@ -23,6 +25,7 @@ export const getData = async (category = "", search = "") => {
   return data;
 };
 
+// category names
 export const categoryNames = {
   GERAL: "geral",
   NEGOCIO: "negocio",

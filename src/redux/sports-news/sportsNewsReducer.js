@@ -1,7 +1,8 @@
 import { GET_SPORTS_HEADLINES } from "../types";
+import { ex_res_sports } from "../../utils/ex_resp";
 
 const inicialState = {
-  sportsHeadlines: null,
+  sportsHeadlines: ex_res_sports || null,
 };
 
 const sportsNewsReducer = (state = inicialState, action) => {

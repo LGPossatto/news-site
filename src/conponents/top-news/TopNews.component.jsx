@@ -8,7 +8,7 @@ const TopNews = () => {
   const topNews = useSelector((state) => state.topNews);
   const { topHeadlines } = topNews;
 
-  return null;
+  // return null;
 
   if (topHeadlines === null || topHeadlines === undefined) {
     return <Spinner></Spinner>;

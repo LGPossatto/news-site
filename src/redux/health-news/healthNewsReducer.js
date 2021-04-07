@@ -1,7 +1,8 @@
 import { GET_HEALTH_HEADLINES } from "../types";
+import { ex_res_health } from "../../utils/ex_resp";
 
 const inicialState = {
-  healthHeadlines: null,
+  healthHeadlines: ex_res_health || null,
 };
 
 const healthNewsReducer = (state = inicialState, action) => {

@@ -1,18 +1,15 @@
 import PropTypes from "prop-types";
 
-import { useSelector } from "react-redux";
-
 import { toTitleCase } from "../../utils/utils";
 
 import "./category-news.style.scss";
 import BigNewsWithImg from "../big-news-with-img/BigNewsWithImg.component";
 import SmallNews from "../small-news/SmallNews.component";
 
-const CategoryNews = ({ category, categoryId }) => {
+const CategoryNews = ({ categoryHeadline, categoryTitle, category }) => {
   return (
     <div className="category-news">
       <h3 className="fs-biger fc-primary">{toTitleCase(categoryTitle)}</h3>
-      {}
       <BigNewsWithImg
         headline={categoryHeadline[0]}
         category={category}
@@ -44,8 +41,9 @@ const CategoryNews = ({ category, categoryId }) => {
 };
 
 CategoryNews.propTypes = {
+  categoryHeadline: PropTypes.array.isRequired,
+  categoryTitle: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
-  categoryId: PropTypes.number.isRequired,
 };
 
 export default CategoryNews;

@@ -7,13 +7,15 @@ import healthNewsReducer from "./health-news/healthNewsReducer";
 import scienceNewsReducer from "./science-news/scienceNewsReducer";
 import sportsNewsReducer from "./sports-news/sportsNewsReducer";
 import technologyNewsReducer from "./technology-news/technologyNewsReducer";
+import specificNewsReducer from "./specific-news/specificNewsReducer";
 
 export default combineReducers({
   topNews: topNewsReducer,
-  BusinessNews: businessNewsReducer,
+  businessNews: businessNewsReducer,
   entertainmentNews: entertainmentNewsReducer,
   healthNews: healthNewsReducer,
   scienceNews: scienceNewsReducer,
   sportsNews: sportsNewsReducer,
   technologyNews: technologyNewsReducer,
+  specificNews: specificNewsReducer,
 });

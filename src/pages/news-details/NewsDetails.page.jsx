@@ -1,6 +1,4 @@
-import { useContext } from "react";
-
-import NewsContext from "../../context/news/newsContext";
+import { useSelector } from "react-redux";
 import { categoryNames } from "../../utils/utils";
 
 import "./news-details.style.scss";
@@ -13,18 +11,28 @@ const NewsDetails = ({
     params: { category, id },
   },
 }) => {
-  const {
-    topLoading,
-    topHeadlines,
-    categoryLoading,
-    businessHeadlines,
-    entertainmentHeadlines,
-    healthHeadlines,
-    scienceHeadlines,
-    sportsHeadlines,
-    technologyHeadlines,
-    specificHeadlines,
-  } = useContext(NewsContext);
+  const topHeadlines = useSelector((state) => state.topNews.topHeadlines);
+  const businessHeadlines = useSelector(
+    (state) => state.businessNews.businessHeadlines
+  );
+  const entertainmentHeadlines = useSelector(
+    (state) => state.entertainmentNews.entertainmentHeadlines
+  );
+  const healthHeadlines = useSelector(
+    (state) => state.healthNews.healthHeadlines
+  );
+  const scienceHeadlines = useSelector(
+    (state) => state.scienceNews.scienceHeadlines
+  );
+  const sportsHeadlines = useSelector(
+    (state) => state.sportsNews.sportsHeadlines
+  );
+  const technologyHeadlines = useSelector(
+    (state) => state.technologyNews.technologyHeadlines
+  );
+  const specificHeadlines = useSelector(
+    (state) => state.specificNews.specificHeadlines
+  );
 
   const getNews = (newsCategory) => {
     switch (newsCategory) {
@@ -49,7 +57,7 @@ const NewsDetails = ({
 
   let news = getNews(category);
 
-  if (topLoading || categoryLoading) {
+  if (news === null || news === undefined) {
     return <Spinner></Spinner>;
   } else {
     return (

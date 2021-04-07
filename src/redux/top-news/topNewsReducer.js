@@ -1,7 +1,8 @@
 import { GET_TOP_HEADLINES } from "../types";
+import { ex_res_general } from "../../utils/ex_resp";
 
 const inicialState = {
-  topHeadlines: null,
+  topHeadlines: ex_res_general || null,
 };
 
 const topNewsReducer = (state = inicialState, action) => {

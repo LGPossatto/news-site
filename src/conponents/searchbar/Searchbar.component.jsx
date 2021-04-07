@@ -1,7 +1,9 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 
-import NewsContext from "../../context/news/newsContext";
+import { useDispatch } from "react-redux";
+import { getSpecificNews } from "../../redux/specific-news/specificNewsActions";
+
 import { categoryNames } from "../../utils/utils";
 
 import "./searchbar.style.scss";
@@ -9,10 +11,11 @@ import "./searchbar.style.scss";
 const Searchbar = () => {
   let history = useHistory();
   const [text, setText] = useState("");
-  const { getSpecificHeadlines } = useContext(NewsContext);
+  const dispatch = useDispatch();
+  const myCustomHook = getSpecificNews(dispatch);
 
   const handleOnClick = () => {
-    getSpecificHeadlines(text);
+    myCustomHook(text);
     setText("");
   };
 

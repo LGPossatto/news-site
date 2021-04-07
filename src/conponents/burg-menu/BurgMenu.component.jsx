@@ -19,6 +19,7 @@ const BurgMenu = ({ navMenuItems }) => {
             key={menuItem.id}
             text={menuItem.name}
             category={menuItem.category}
+            setShowMenu={setShowMenu}
           ></MenuItem>
         ))}
       </div>
